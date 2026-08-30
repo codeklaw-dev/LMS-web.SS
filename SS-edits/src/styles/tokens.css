@@ -1,0 +1,219 @@
+/* =========================================================================
+   RacoLearnHub — Design tokens
+   Trusted EdTech: warm, human, credible. Purple anchor, paper neutrals.
+   Reference: Blueprint §4.1 Brand & colour, §4.2 Typography, §4.3 Layout
+   ========================================================================= */
+
+:root {
+  /* ---- Brand ramp (deep purple #4B2E83 → vivid violet #6D4AE0) ---------- */
+  --brand-50:  #F3F0FC;
+  --brand-100: #E6E0F8;
+  --brand-200: #CDC0F1;
+  --brand-300: #AC98E8;
+  --brand-400: #8B6FE4;
+  --brand-500: #6D4AE0;  /* primary bright — gradients, hovers, highlights */
+  --brand-600: #5C3BC4;
+  --brand-700: #4B2E83;  /* primary / brand — logo, buttons, key headlines */
+  --brand-800: #3A2367;
+  --brand-900: #2A1A4B;
+
+  /* ---- Warm secondary (amber/apricot) — human accents, used sparingly -- */
+  --warm-100: #FEF0DC;
+  --warm-300: #FBC988;
+  --warm-500: #F5A524;
+  --warm-700: #B9741A;
+
+  /* ---- Trust accent (teal/green) — proof points, "safe" cues ----------- */
+  --trust-100: #DCF7E8;
+  --trust-300: #85E0B0;
+  --trust-500: #1F9D77;
+  --trust-700: #147054;
+
+  /* ---- Neutrals: paper-like, never cold grey -------------------------- */
+  --ink:        #1A1725;  /* text workhorse */
+  --slate:      #5B5670;  /* secondary text */
+  --slate-soft: #6F6B80;  /* tertiary text, captions.
+                             Contrast is verified against the DARKEST light
+                             surface (--surface-2), not the page ground, because
+                             captions appear on inset bands too:
+                               4.67:1 on --surface-2 · 4.89:1 on --paper
+                             Do not lighten. Eyebrows, kickers and captions run
+                             at ~12px, which WCAG counts as normal text, so
+                             4.5:1 is the floor rather than 3:1. */
+  --line:       #E7E4F0;  /* borders, dividers */
+  --line-soft:  #F1EFF7;
+  --paper:      #FAF9FC;  /* page ground */
+  --surface:    #FFFFFF;  /* cards, sheets */
+  --surface-2:  #F5F3FA;  /* inset / alternating bands */
+
+  /* ---- Semantic — state only, never decoration ------------------------ */
+  --success: #1F9D77;
+  --warning: #B9741A;
+  --danger:  #C2334D;
+  --info:    #3A6FD8;
+
+  /* ---- Role aliases (what components actually consume) ----------------- */
+  --bg:            var(--paper);
+  --bg-elevated:   var(--surface);
+  --bg-inset:      var(--surface-2);
+  --text:          var(--ink);
+  --text-muted:    var(--slate);
+  --text-subtle:   var(--slate-soft);
+  --border:        var(--line);
+  --border-soft:   var(--line-soft);
+  --accent:        var(--brand-700);
+  --accent-bright: var(--brand-500);
+  --accent-soft:   var(--brand-50);
+  --on-accent:     #FFFFFF;
+  --focus-ring:    var(--brand-500);
+
+  --band-ink:      #221A3D;   /* dark conversion bands in light mode */
+  --band-ink-2:    #150F2B;
+
+  /* ---- Typography ------------------------------------------------------
+     Apple's HIG makes three points this system now follows:
+     1. A "text style" binds size + weight + leading together, not size alone.
+     2. Variable fonts carry an optical-size axis — letterforms should be
+        redrawn per size, not scaled. Fraunces exposes `opsz`; we drive it.
+     3. Avoid light weights. Nothing here goes below 400.
+     Tracking tightens as size grows, the way optical sizing expects.        */
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+               "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+
+  /* Modular scale ~1.25, fluid between 360px and 1280px viewports */
+  --step--2: clamp(0.72rem, 0.70rem + 0.10vw, 0.78rem);
+  --step--1: clamp(0.84rem, 0.81rem + 0.15vw, 0.92rem);
+  --step-0:  clamp(1.00rem, 0.96rem + 0.20vw, 1.125rem);  /* body 16→18px */
+  --step-1:  clamp(1.20rem, 1.13rem + 0.34vw, 1.44rem);
+  --step-2:  clamp(1.44rem, 1.32rem + 0.58vw, 1.85rem);
+  --step-3:  clamp(1.73rem, 1.53rem + 0.95vw, 2.37rem);
+  --step-4:  clamp(2.07rem, 1.76rem + 1.50vw, 3.05rem);
+  --step-5:  clamp(2.49rem, 2.00rem + 2.35vw, 3.90rem);
+  --step-6:  clamp(2.90rem, 2.20rem + 3.30vw, 4.60rem);
+
+  /* Tracking tightens as type grows — optical compensation, not decoration. */
+  --track-tightest: -0.035em;   /* display */
+  --track-tighter:  -0.028em;   /* h1 / h2 */
+  --track-tight:    -0.018em;   /* h3 / h4 */
+  --track-snug:     -0.008em;   /* h5 / lede */
+  --track-normal:    0;         /* body */
+  --track-wide:      0.02em;    /* small caps, UI labels */
+  --track-widest:    0.09em;    /* eyebrows */
+
+  /* Leading is part of the text style, not a separate decision. */
+  --leading-display: 1.02;
+  --leading-tight:   1.08;
+  --leading-snug:    1.22;
+  --leading-body:    1.6;
+  --leading-relaxed: 1.7;
+
+  --measure:       68ch;   /* 60–75 characters */
+  --measure-tight: 46ch;
+  --measure-lede:  54ch;
+
+  /* ---- Spacing — 8px base -------------------------------------------- */
+  --space-1: 0.25rem;  /*  4 */
+  --space-2: 0.5rem;   /*  8 */
+  --space-3: 0.75rem;  /* 12 */
+  --space-4: 1rem;     /* 16 */
+  --space-5: 1.5rem;   /* 24 */
+  --space-6: 2rem;     /* 32 */
+  --space-7: 2.5rem;   /* 40 */
+  --space-8: 3rem;     /* 48 */
+  --space-9: 4rem;     /* 64 */
+  --space-10: 5rem;    /* 80 */
+  --space-11: 6rem;    /* 96 */
+  --space-12: 8rem;    /* 128 */
+  --space-13: 10rem;   /* 160 */
+  --space-14: 12.5rem; /* 200 */
+
+  /* ---- Section rhythm --------------------------------------------------
+     Apple's Layout guidance names negative space as the first tool for
+     grouping, ahead of borders and background shapes. So section spacing here
+     is semantic, not a single uniform number: the size of a gap says whether
+     the next section continues the current thought or begins a new one.
+
+       hero     an opening statement, given room to land
+       major    a new movement in the argument
+       section  the default
+       tight    a continuation of the section above it
+       hairline two halves of one idea, barely parted                        */
+  --section-hero:    clamp(4.5rem, 2.5rem + 8.5vw, 9rem);
+  --section-major:   clamp(4rem,   2.2rem + 7.5vw, 8rem);
+  --section-y:       clamp(3.25rem, 2rem + 5.5vw, 6rem);
+  --section-tight:   clamp(2.5rem, 1.75rem + 3.5vw, 4rem);
+  --section-hairline: clamp(1.5rem, 1rem + 2vw, 2.5rem);
+
+  /* ---- Layout ---------------------------------------------------------- */
+  --container: 1240px;
+  --container-narrow: 880px;
+  --container-prose: 720px;
+  --gutter: clamp(1.25rem, 0.75rem + 2.2vw, 2.5rem);
+  --header-h: 72px;
+
+  /* ---- Radii — 12–16px for warmth ------------------------------------- */
+  --radius-sm: 8px;
+  --radius: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+
+  /* ---- Elevation — soft, purple-tinted, never black ------------------- */
+  --shadow-xs: 0 1px 2px rgba(26, 23, 37, 0.05);
+  --shadow-sm: 0 1px 3px rgba(42, 26, 75, 0.06), 0 1px 2px rgba(42, 26, 75, 0.04);
+  --shadow:    0 4px 12px rgba(42, 26, 75, 0.07), 0 1px 3px rgba(42, 26, 75, 0.05);
+  --shadow-md: 0 12px 28px rgba(42, 26, 75, 0.09), 0 2px 6px rgba(42, 26, 75, 0.05);
+  --shadow-lg: 0 28px 60px rgba(42, 26, 75, 0.13), 0 6px 16px rgba(42, 26, 75, 0.06);
+  --shadow-ring: 0 0 0 1px var(--border);
+
+  /* ---- Motion — 150–250ms, ease-out on enter -------------------------- */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 150ms;
+  --dur: 200ms;
+  --dur-slow: 250ms;
+
+  --z-header: 100;
+  --z-menu: 110;
+  --z-banner: 120;
+  --z-modal: 200;
+
+  color-scheme: light;
+}
+
+/* =========================================================================
+   Dark mode — full parity. Schools expect it; the product supports it.
+   ========================================================================= */
+:root[data-theme="dark"] {
+  --bg:            #120F1E;
+  --bg-elevated:   #1B172C;
+  --bg-inset:      #221D37;
+  --text:          #F4F2FA;
+  --text-muted:    #B4AFC8;
+  --text-subtle:   #8B85A3;
+  --border:        #302946;
+  --border-soft:   #262038;
+  --accent:        #AC98E8;
+  --accent-bright: #8B6FE4;
+  --accent-soft:   #241D3D;
+  --on-accent:     #17122B;
+  --focus-ring:    #AC98E8;
+
+  --band-ink:      #1B172C;
+  --band-ink-2:    #120F1E;
+
+  --success: #4FC79E;
+  --warning: #E8A34A;
+  --danger:  #E2657C;
+  --info:    #7AA3F0;
+
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.35);
+  --shadow:    0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 12px 28px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 28px 60px rgba(0, 0, 0, 0.55);
+
+  color-scheme: dark;
+}

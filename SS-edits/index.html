@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en-GB" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4B2E83" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#120F1E" media="(prefers-color-scheme: dark)" />
+
+    <title>RacoLearnHub — The AI-native learning platform for schools</title>
+    <meta
+      name="description"
+      content="Curriculum-aligned courses, interactive simulations and a 24/7 AI tutor in one platform — branded as your school, in 20+ languages. Book a live demo."
+    />
+
+    <!-- Open Graph / social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="RacoLearnHub" />
+    <meta property="og:title" content="RacoLearnHub — The AI-native learning platform for schools" />
+    <meta
+      property="og:description"
+      content="Give every student a tutor. Give every teacher their time back."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Two families only: a warm display serif for headlines, Inter for everything else (§4.2) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--
+      Structured data (§6). Organization only for the skeleton; add Product,
+      FAQPage and BreadcrumbList per route when metadata moves server-side.
+    -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "RACO AI Technologies Ltd",
+        "url": "https://racolearnhub.com",
+        "brand": { "@type": "Brand", "name": "RacoLearnHub" },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Slough",
+          "addressCountry": "GB"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

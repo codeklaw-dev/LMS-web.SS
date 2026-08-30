@@ -1,0 +1,29 @@
+.demo__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: clamp(2rem, 1rem + 4vw, 4.5rem);
+  align-items: start;
+}
+@media (max-width: 940px) {
+  .demo__grid { grid-template-columns: minmax(0, 1fr); }
+}
+
+.demo__form { margin-top: var(--space-8); }
+.demo__submit { margin-top: var(--space-7); }
+
+.demo__aside { display: grid; gap: var(--space-5); position: sticky; top: calc(var(--header-h) + var(--space-6)); }
+@media (max-width: 940px) { .demo__aside { position: static; } }
+
+.demo__badges { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+
+/* Native select keeps its semantics; we only supply the caret. */
+.select-wrap { position: relative; }
+.select-wrap__caret {
+  position: absolute;
+  right: var(--space-4);
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: var(--text-subtle);
+}
+[dir="rtl"] .select-wrap__caret { right: auto; left: var(--space-4); }
