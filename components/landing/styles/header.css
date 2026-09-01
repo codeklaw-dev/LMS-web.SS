@@ -1,0 +1,289 @@
+/* =========================================================================
+   Global header — sticky, slim, high-contrast. The demo button never leaves.
+   Blueprint §2.2
+   ========================================================================= */
+
+.landing .header {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-header);
+  background: color-mix(in srgb, var(--bg) 82%, transparent);
+  backdrop-filter: saturate(180%) blur(14px);
+  -webkit-backdrop-filter: saturate(180%) blur(14px);
+  border-bottom: 1px solid transparent;
+  transition: border-color var(--dur) var(--ease-out),
+              background-color var(--dur) var(--ease-out),
+              box-shadow var(--dur) var(--ease-out);
+}
+.landing .header[data-scrolled="true"] {
+  border-bottom-color: var(--border);
+  box-shadow: 0 1px 20px rgba(50, 11, 53, 0.08);
+}
+
+.landing .header__inner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+  height: var(--header-h);
+}
+
+/* ---- Wordmark ---------------------------------------------------------- */
+.landing .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  text-decoration: none;
+  color: var(--text);
+  flex: none;
+}
+.landing .brand__mark {
+  display: grid; place-items: center;
+  width: 34px; height: 34px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--brand-700), var(--uv-500));
+  color: var(--cream-100);
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  box-shadow: 0 2px 8px rgba(50, 11, 53, 0.35);
+}
+.landing .brand__name {
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  white-space: nowrap;
+}
+.landing .brand__name em { font-style: normal; color: var(--accent); }
+
+/* ---- Centre nav -------------------------------------------------------- */
+.landing .nav { display: flex; align-items: center; gap: var(--space-1); margin-inline: auto; }
+
+.landing .nav__link,
+.landing .nav__trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0.5rem 0.75rem;
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: none;
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+  font-size: var(--step--1);
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color var(--dur) var(--ease-out), background-color var(--dur) var(--ease-out);
+}
+.landing .nav__link:hover,
+.landing .nav__trigger:hover,
+.landing .nav__trigger[aria-expanded="true"] { color: var(--text); background: var(--bg-inset); }
+.landing .nav__link[aria-current="page"] { color: var(--accent); font-weight: 600; }
+.landing .nav__caret { transition: transform var(--dur) var(--ease-out); }
+.landing .nav__trigger[aria-expanded="true"] .nav__caret { transform: rotate(180deg); }
+
+/* ---- Right cluster ----------------------------------------------------- */
+.landing .header__actions { display: flex; align-items: center; gap: var(--space-2); flex: none; }
+
+.landing .header__signin {
+  padding: 0.5rem 0.75rem;
+  font-size: var(--step--1);
+  font-weight: 500;
+  color: var(--text-muted);
+  text-decoration: none;
+  border-radius: var(--radius-sm);
+  transition: color var(--dur) var(--ease-out);
+}
+.landing .header__signin:hover { color: var(--text); }
+
+.landing .icon-btn {
+  display: grid; place-items: center;
+  width: 38px; height: 38px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  background: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color var(--dur) var(--ease-out),
+              background-color var(--dur) var(--ease-out),
+              border-color var(--dur) var(--ease-out);
+}
+.landing .icon-btn:hover { color: var(--text); background: var(--bg-inset); }
+.landing .icon-btn[aria-expanded="true"] { color: var(--accent); background: var(--accent-soft); }
+
+/* =========================================================================
+   Mega-menu — grouped links with one-line descriptions + a featured card
+   ========================================================================= */
+.landing .megamenu {
+  position: absolute;
+  left: 0; right: 0;
+  top: 100%;
+  z-index: var(--z-menu);
+  background: var(--bg-elevated);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  box-shadow: var(--shadow-lg);
+}
+
+.landing .megamenu__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) 300px;
+  gap: var(--space-8);
+  padding-block: var(--space-8);
+}
+.landing .megamenu__grid[data-cols="2"] { grid-template-columns: minmax(0, 1fr) 300px; }
+
+.landing .megamenu__group-title {
+  font-family: var(--font-sans);
+  font-size: var(--step--2);
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--text-subtle);
+  margin-bottom: var(--space-4);
+}
+
+.landing .megamenu__list { display: grid; gap: 2px; }
+
+.landing .megamenu__item {
+  display: block;
+  padding: var(--space-3);
+  margin-inline: calc(var(--space-3) * -1);
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: background-color var(--dur-fast) var(--ease-out);
+}
+.landing .megamenu__item:hover { background: var(--accent-soft); }
+.landing .megamenu__item-label {
+  display: block;
+  font-size: var(--step--1);
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 2px;
+}
+.landing .megamenu__item:hover .megamenu__item-label { color: var(--accent); }
+.landing .megamenu__item-desc {
+  display: block;
+  font-size: var(--step--2);
+  line-height: 1.45;
+  color: var(--text-subtle);
+}
+
+.landing .megamenu__featured {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-6);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(155deg, var(--brand-700) 0%, var(--uv-600) 100%);
+  color: var(--cream-200);
+  text-decoration: none;
+  transition: transform var(--dur-slow) var(--ease-out), box-shadow var(--dur-slow) var(--ease-out);
+}
+.landing .megamenu__featured:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.landing .megamenu__featured .badge {
+  align-self: flex-start;
+  background: rgba(246, 244, 218, 0.18);
+  color: var(--cream-200);
+  margin-bottom: var(--space-4);
+}
+.landing .megamenu__featured h3 { font-size: var(--step-1); margin-bottom: var(--space-2); }
+.landing .megamenu__featured p { font-size: var(--step--2); line-height: 1.5; color: rgba(246, 244, 218, 0.85); }
+.landing .megamenu__featured span:last-child {
+  margin-top: auto; padding-top: var(--space-5);
+  font-size: var(--step--1); font-weight: 600;
+  display: inline-flex; align-items: center; gap: var(--space-2);
+}
+
+/* =========================================================================
+   Language switcher / theme popovers
+   ========================================================================= */
+.landing .popover {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: var(--z-menu);
+  min-width: 240px;
+  padding: var(--space-2);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+}
+.landing .popover__label {
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--step--2);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-subtle);
+}
+.landing .popover__list { max-height: 320px; overflow-y: auto; display: grid; gap: 1px; }
+.landing .popover__option {
+  display: flex; align-items: center; justify-content: space-between; gap: var(--space-4);
+  width: 100%;
+  padding: var(--space-3);
+  border: 0; border-radius: var(--radius-sm);
+  background: none;
+  font-size: var(--step--1);
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+  transition: background-color var(--dur-fast) var(--ease-out);
+}
+.landing .popover__option:hover { background: var(--bg-inset); }
+.landing .popover__option[aria-selected="true"] { color: var(--accent); font-weight: 600; }
+.landing .popover__native { color: var(--text-subtle); font-size: var(--step--2); }
+.landing .lang-wrap, .landing .theme-wrap { position: relative; }
+
+/* =========================================================================
+   Mobile
+   ========================================================================= */
+.landing .header__burger { display: none; }
+
+.landing .mobile-nav {
+  position: fixed;
+  inset: var(--header-h) 0 0;
+  z-index: var(--z-menu);
+  background: var(--bg);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: var(--space-6) 0 max(var(--space-10), env(safe-area-inset-bottom));
+  border-top: 1px solid var(--border);
+}
+.landing .mobile-nav__section { border-bottom: 1px solid var(--border-soft); padding-bottom: var(--space-4); margin-bottom: var(--space-4); }
+.landing .mobile-nav__link {
+  display: block;
+  padding: var(--space-3) 0;
+  font-size: var(--step-1);
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+}
+.landing .mobile-nav__sublink {
+  display: block;
+  padding: var(--space-2) 0;
+  font-size: var(--step--1);
+  color: var(--text-muted);
+  text-decoration: none;
+}
+.landing .mobile-nav__sublink:hover { color: var(--accent); }
+.landing .mobile-nav__cta { display: grid; gap: var(--space-3); margin-top: var(--space-6); }
+
+@media (max-width: 1080px) {
+  .landing .nav, .landing .header__signin { display: none; }
+  .landing .header__burger { display: grid; }
+  .landing .header__inner { gap: var(--space-4); }
+  .landing .header__actions { margin-left: auto; }
+}
+/* The demo button never leaves (§2.2), so on the narrowest screens the
+   language and theme controls give up their space instead — both are still
+   reachable from the mobile menu and the footer. */
+@media (max-width: 560px) {
+  .landing .brand__name { display: none; }
+  .landing .header__actions .lang-wrap,
+  .landing .header__actions .theme-wrap { display: none; }
+}

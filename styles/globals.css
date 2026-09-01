@@ -1,0 +1,14 @@
+/* Local-dev stand-in for the platform's styles/globals.css.
+   Not part of the drop-in bundle. The landing owns its own tokens in
+   components/landing/styles/landing.css, scoped under `.landing`. */
+@import 'tailwindcss';
+
+:root {
+  color-scheme: light dark;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}

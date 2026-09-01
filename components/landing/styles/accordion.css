@@ -1,0 +1,41 @@
+.landing .accordion {
+  border-top: 1px solid var(--border);
+}
+
+.landing .accordion__item { border-bottom: 1px solid var(--border); }
+
+.landing .accordion__heading { margin: 0; font-family: inherit; }
+
+.landing .accordion__trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-5);
+  width: 100%;
+  padding: var(--space-5) 0;
+  background: none;
+  border: 0;
+  text-align: left;
+  font-family: var(--font-sans);
+  font-size: var(--step-0);
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text);
+  cursor: pointer;
+  transition: color var(--dur) var(--ease-out);
+}
+.landing .accordion__trigger:hover { color: var(--accent); }
+.landing .accordion__trigger:focus-visible { outline-offset: -2px; }
+
+.landing .accordion__chevron {
+  flex: none;
+  color: var(--accent);
+  transition: transform var(--dur-slow) var(--ease-out);
+}
+.landing .accordion__item[data-open="true"] .accordion__chevron { transform: rotate(45deg); }
+
+.landing .accordion__panel {
+  padding-bottom: var(--space-6);
+  max-width: var(--measure);
+}
+.landing .accordion__panel p { color: var(--text-muted); font-size: var(--step--1); line-height: 1.6; }
