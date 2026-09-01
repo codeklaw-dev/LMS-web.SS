@@ -1,0 +1,22 @@
+/* Landing stylesheet — single import surface for the route tree.
+   `app/landing-page/layout.tsx` imports this file; nothing else should.
+
+   Order matters: tokens first (they are consumed by everything below),
+   then the base layer, the component layer, and the per-component
+   stylesheets that travel with their blocks.
+
+   No Tailwind here on purpose: the hand-written token layer is the whole
+   design system, and the platform's globals.css already owns the Tailwind
+   import — duplicating it would re-emit the preflight.
+
+   Every rule in every file below is scoped under `.landing` (see
+   scripts/scope-css.mjs), so the whole layer can be dropped into the
+   platform's apps/web without touching its Tailwind/shadcn tokens. */
+@import './tokens.css';
+@import './base.css';
+@import './components.css';
+@import './blocks.css';
+@import './header.css';
+@import './footer.css';
+@import './accordion.css';
+@import './demo.css';

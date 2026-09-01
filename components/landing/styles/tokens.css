@@ -1,0 +1,263 @@
+/* =========================================================================
+   RacoLearnHub landing — design tokens
+   Deep purple #320B35 · almond oil #ECE9BE · ultraviolet accent.
+
+   Every custom property is declared on `.landing`, never on :root, so the
+   token layer cannot collide with the platform's shadcn tokens (--primary,
+   --background, --radius…) when this tree is dropped into apps/web.
+
+   Contrast was computed, not eyeballed. The pairs that matter:
+     #320B35 on #ECE9BE  13.74     #ECE9BE on #320B35  13.74
+     #5C3A5E on #ECE9BE   7.64     #C4B8C6 on #320B35   8.92
+     #6F5A72 on #ECE9BE   5.02     #A899AB on #320B35   6.32
+     #6D28D9 on #ECE9BE   5.74     #C084FC on #320B35   6.44
+   #A855F7 is 4.30 on the dark ground and 3.88 on the raised surface, so it is
+   a FILL colour only — never text. #7C3AED is its light-mode counterpart.
+   ========================================================================= */
+
+.landing {
+  /* ---- Deep purple ramp — anchored on the reference #320B35 ------------ */
+  --brand-50:  #F7F0F8;
+  --brand-100: #EBDCEE;
+  --brand-200: #D3B9D7;
+  --brand-300: #A874AE;
+  --brand-400: #7A3D82;
+  --brand-500: #5A2062;
+  --brand-600: #43124A;
+  --brand-700: #320B35;  /* primary — the reference deep purple */
+  --brand-800: #2A0930;
+  --brand-900: #1C0620;
+
+  /* ---- Ultraviolet — interaction, links, focus ------------------------- */
+  --uv-700: #5B21B6;
+  --uv-600: #6D28D9;  /* light-mode accent TEXT (5.74 on cream) */
+  --uv-500: #7C3AED;  /* light-mode accent FILL */
+  --uv-400: #A855F7;  /* dark-mode accent FILL — never text */
+  --uv-300: #C084FC;  /* dark-mode accent TEXT (6.44 on #320B35) */
+  --uv-200: #D8B4FE;
+
+  /* ---- Almond oil — the light ground and the dark ink ------------------ */
+  --cream-50:  #FBFAEC;
+  --cream-100: #F6F4DA;
+  --cream-200: #F3F1CE;
+  --cream-300: #ECE9BE;  /* light page ground */
+  --cream-400: #E4E1B0;
+  --cream-500: #D9D5A8;  /* borders */
+  --cream-600: #BDB88A;
+
+  /* ---- Decorative tones ------------------------------------------------
+     The old system had three decorative families (brand / warm / trust) and
+     used them to tint alternating sections. That is exactly what makes a page
+     read as a stack of unrelated bands. Here `warm` and `trust` survive as
+     names only — every tone resolves inside the two-colour palette, so the
+     page reads as one surface however many tiles and badges sit on it.       */
+  --warm-100: var(--cream-100);
+  --warm-300: var(--cream-400);
+  --warm-500: var(--brand-400);
+  --warm-700: var(--brand-600);
+  --trust-100: #EFE4F1;
+  --trust-300: var(--uv-200);
+  --trust-500: var(--uv-600);
+  --trust-700: var(--uv-700);
+
+  /* ---- Role aliases — what components actually consume ----------------- */
+  --bg:            var(--cream-300);
+  --bg-elevated:   var(--cream-200);
+  --bg-inset:      var(--cream-400);
+  --text:          var(--brand-700);
+  --text-muted:    #5C3A5E;
+  --text-subtle:   #6F5A72;  /* 5.02 on the ground; do not lighten — eyebrows
+                                and captions run at ~12px, so 4.5:1 is floor */
+  --border:        var(--cream-500);
+  --border-soft:   #E4E1B7;
+  --accent:        var(--brand-700);
+  --accent-bright: var(--uv-600);
+  --accent-fill:   var(--uv-500);
+  --accent-soft:   #E7DDEA;
+  --on-accent:     var(--cream-100);
+  --focus-ring:    var(--uv-600);
+
+  /* Conversion surfaces. In light mode these invert against the cream page;
+     in dark mode they resolve to the page ground (see the dark block). */
+  --band-ink:      var(--brand-700);
+  --band-ink-2:    var(--brand-800);
+  --band-text:     var(--cream-200);
+  --band-text-2:   rgba(246, 244, 218, 0.72);
+  --band-rule:     rgba(246, 244, 218, 0.18);
+  --band-border:   transparent;
+
+  /* ---- Semantic — state only, never decoration ------------------------- */
+  --success: #17624A;
+  --warning: #8A5A12;
+  --danger:  #9E2440;
+  --info:    #2A4FB8;
+
+  /* ---- Typography ------------------------------------------------------
+     Playfair Display carries the display voice from the reference artwork —
+     high stroke contrast, and an italic that earns its place on the two or
+     three lines that matter. Inter runs everything else. Bengali has no
+     Playfair coverage, so `[lang="bn"]` remaps both roles to Hind Siliguri
+     (see the Bengali block at the end of this file).                        */
+  --font-display: var(--font-playfair), "Iowan Old Style", Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+               "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+
+  /* Modular scale ~1.25, fluid between 360px and 1280px viewports */
+  --step--2: clamp(0.72rem, 0.70rem + 0.10vw, 0.78rem);
+  --step--1: clamp(0.84rem, 0.81rem + 0.15vw, 0.92rem);
+  --step-0:  clamp(1.00rem, 0.96rem + 0.20vw, 1.125rem);
+  --step-1:  clamp(1.20rem, 1.13rem + 0.34vw, 1.44rem);
+  --step-2:  clamp(1.44rem, 1.32rem + 0.58vw, 1.85rem);
+  --step-3:  clamp(1.73rem, 1.53rem + 0.95vw, 2.37rem);
+  --step-4:  clamp(2.07rem, 1.76rem + 1.50vw, 3.05rem);
+  --step-5:  clamp(2.49rem, 2.00rem + 2.35vw, 3.90rem);
+  --step-6:  clamp(2.90rem, 2.20rem + 3.30vw, 4.60rem);
+
+  /* Tracking tightens as type grows. Playfair is already tight at display
+     sizes, so these are gentler than the previous serif's values. */
+  --track-tightest: -0.022em;
+  --track-tighter:  -0.018em;
+  --track-tight:    -0.012em;
+  --track-snug:     -0.006em;
+  --track-normal:    0;
+  --track-wide:      0.02em;
+  --track-widest:    0.09em;
+
+  --leading-display: 1.04;
+  --leading-tight:   1.10;
+  --leading-snug:    1.24;
+  --leading-body:    1.6;
+  --leading-relaxed: 1.7;
+
+  --measure:       68ch;
+  --measure-tight: 46ch;
+  --measure-lede:  54ch;
+
+  /* ---- Spacing — 8px base --------------------------------------------- */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 2.5rem;
+  --space-8: 3rem;
+  --space-9: 4rem;
+  --space-10: 5rem;
+  --space-11: 6rem;
+  --space-12: 8rem;
+  --space-13: 10rem;
+  --space-14: 12.5rem;
+
+  /* ---- Section rhythm — the size of a gap is a sentence ---------------- */
+  --section-hero:    clamp(4.5rem, 2.5rem + 8.5vw, 9rem);
+  --section-major:   clamp(4rem,   2.2rem + 7.5vw, 8rem);
+  --section-y:       clamp(3.25rem, 2rem + 5.5vw, 6rem);
+  --section-tight:   clamp(2.5rem, 1.75rem + 3.5vw, 4rem);
+  --section-hairline: clamp(1.5rem, 1rem + 2vw, 2.5rem);
+
+  /* ---- Layout ---------------------------------------------------------- */
+  --container: 1240px;
+  --container-narrow: 880px;
+  --container-prose: 720px;
+  --gutter: clamp(1.25rem, 0.75rem + 2.2vw, 2.5rem);
+  --header-h: 72px;
+
+  /* ---- Radii ----------------------------------------------------------- */
+  --radius-sm: 8px;
+  --radius: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+
+  /* ---- Elevation — purple-tinted, never black -------------------------- */
+  --shadow-xs: 0 1px 2px rgba(50, 11, 53, 0.06);
+  --shadow-sm: 0 1px 3px rgba(50, 11, 53, 0.08), 0 1px 2px rgba(50, 11, 53, 0.05);
+  --shadow:    0 4px 12px rgba(50, 11, 53, 0.09), 0 1px 3px rgba(50, 11, 53, 0.06);
+  --shadow-md: 0 12px 28px rgba(50, 11, 53, 0.11), 0 2px 6px rgba(50, 11, 53, 0.06);
+  --shadow-lg: 0 28px 60px rgba(50, 11, 53, 0.16), 0 6px 16px rgba(50, 11, 53, 0.08);
+  --shadow-ring: 0 0 0 1px var(--border);
+
+  /* ---- Motion ---------------------------------------------------------- */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 150ms;
+  --dur: 200ms;
+  --dur-slow: 250ms;
+
+  --z-header: 100;
+  --z-menu: 110;
+  --z-banner: 120;
+  --z-modal: 200;
+
+  color-scheme: light;
+}
+
+/* =========================================================================
+   Dark mode — one continuous deep-purple surface.
+
+   The brief is a seamless page: #320B35 edge to edge, every section, with no
+   band that darkens or lightens against its neighbours. So the inset and
+   conversion surfaces collapse onto the ground here and separation is carried
+   by hairline rules and the section rhythm instead of a fill.
+   ========================================================================= */
+.landing[data-theme="dark"] {
+  --bg:            var(--brand-700);
+  --bg-elevated:   #3C1440;
+  --bg-inset:      var(--brand-700);   /* deliberately the ground */
+  --text:          var(--cream-300);
+  --text-muted:    #C4B8C6;
+  --text-subtle:   #A899AB;
+  --border:        #4A2050;
+  --border-soft:   #3E1644;
+  --accent:        var(--uv-300);
+  --accent-bright: var(--uv-300);
+  --accent-fill:   var(--uv-400);
+  --accent-soft:   #45184A;
+  --on-accent:     #250826;
+  --focus-ring:    var(--uv-300);
+
+  --band-ink:      var(--brand-700);
+  --band-ink-2:    var(--brand-700);
+  --band-text:     var(--cream-300);
+  --band-text-2:   #C4B8C6;
+  --band-rule:     #4A2050;
+  --band-border:   #4A2050;
+
+  --success: #7FD8B0;
+  --warning: #E8C06A;
+  --danger:  #F2909F;
+  --info:    #9DBEF5;
+
+  --trust-100: #45184A;
+  --warm-100:  #45184A;
+  --accent-soft: #45184A;
+
+  --shadow-xs: 0 1px 2px rgba(10, 2, 12, 0.4);
+  --shadow-sm: 0 1px 3px rgba(10, 2, 12, 0.45);
+  --shadow:    0 4px 12px rgba(10, 2, 12, 0.5);
+  --shadow-md: 0 12px 28px rgba(10, 2, 12, 0.55);
+  --shadow-lg: 0 28px 60px rgba(10, 2, 12, 0.6);
+
+  color-scheme: dark;
+}
+
+/* =========================================================================
+   Bengali — Hind Siliguri carries every role.
+   Playfair Display and Inter have no Bengali coverage, so under [lang="bn"]
+   both the display and sans roles resolve to the Hind Siliguri variable the
+   landing layout loads (--font-hind). Headings lose the serif contrast but
+   gain a real Bengali typographic voice; weights map 1:1.
+   ========================================================================= */
+.landing[lang="bn"] {
+  --font-display: var(--font-hind), "Noto Serif Bengali", Georgia, serif;
+  --font-sans: var(--font-hind), -apple-system, BlinkMacSystemFont, "Segoe UI",
+               "Helvetica Neue", Arial, sans-serif;
+  /* Bengali glyphs run taller than Latin at the same nominal size; the
+     leading tokens already carry the extra room, tracking does not apply. */
+  --track-tightest: 0;
+  --track-tighter: 0;
+  --track-tight: 0;
+  --track-snug: 0;
+}

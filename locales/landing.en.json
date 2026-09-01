@@ -1,0 +1,1832 @@
+{
+  "site": {
+    "name": "RacoLearnHub",
+    "parent": "RACO AI Technologies",
+    "tagline": "The AI-native learning platform for schools",
+    "description": "RacoLearnHub brings curriculum-aligned courses, interactive simulations and a 24/7 AI tutor into one platform — branded as your school, in over 20 languages.",
+    "primaryCta": { "label": "Book a Live Demo", "href": "/demo" },
+    "legalName": "RACO AI Technologies Ltd",
+    "address": "Slough, United Kingdom",
+    "engineering": "Engineering in Dhaka, Bangladesh",
+    "parentSite": "https://racoai.io"
+  },
+
+  "ui": {
+    "skipToContent": "Skip to content",
+    "home": "Home",
+    "signin": "Sign in",
+    "bookDemo": "Book a Live Demo",
+    "breadcrumbLabel": "Breadcrumb",
+    "primaryNavLabel": "Primary",
+    "switchTheme": "Switch to {next} theme",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "placeholderBadge": "Placeholder — replace before launch",
+    "explore": "Explore",
+    "readMore": "Read more",
+    "readCaseStudy": "Read the case study",
+    "ctaBand": {
+      "title": "See RacoLearnHub with your school’s subjects.",
+      "sub": "A 30-minute personalised walkthrough with a specialist. No obligation.",
+      "secondaryLabel": "Download the schools brochure",
+      "note": "It’s a conversation, not a pitch — bring your questions and your curriculum."
+    },
+    "cookie": {
+      "title": "Cookies on this site",
+      "body": "We use essential cookies to run the site. With your consent we also measure which pages help schools decide — nothing more, and never for advertising.",
+      "accept": "Accept analytics",
+      "essential": "Essential only",
+      "policy": "Cookie policy"
+    },
+    "newsletter": {
+      "label": "Insights for school leaders",
+      "placeholder": "you@school.org",
+      "submit": "Subscribe",
+      "note": "Monthly, no spam. Unsubscribe in one click.",
+      "error": "Please enter a valid work email address.",
+      "success": "You’re subscribed. First insight lands next month."
+    },
+    "footer": {
+      "ctaTitle": "Ready to see it with your subjects?",
+      "ctaDemo": "Book a live demo",
+      "ctaBrochure": "Schools brochure",
+      "badges": {
+        "gdpr": "GDPR compliant",
+        "wcag": "WCAG 2.2 AA",
+        "boards": "Cambridge & Edexcel aligned"
+      }
+    }
+  },
+
+  "nav": {
+    "primaryLabel": "Primary",
+    "items": {
+      "/platform": { "label": "Platform" },
+      "/platform/ai-copilot": { "label": "AI Copilot", "desc": "The AI tutor that knows your curriculum." },
+      "/platform/simulations": { "label": "Interactive Simulations", "desc": "Science and maths you can touch." },
+      "/platform/courses": { "label": "Courses & Curriculum", "desc": "Curriculum-ready content, day one." },
+      "/platform/playgrounds": { "label": "Playgrounds", "desc": "Generate an interactive lesson in minutes." },
+      "/platform/community": { "label": "Community & Collaboration", "desc": "Keep learning social — and safe." },
+      "/platform/analytics": { "label": "Progress & Analytics", "desc": "See how every learner is really doing." },
+      "/platform/white-label": { "label": "White-label & Branding", "desc": "Your school, front and centre." },
+      "/platform/payments": { "label": "Payments & Admin", "desc": "Fees and admin, handled." },
+      "/solutions": { "label": "Solutions" },
+      "/solutions/leaders": { "label": "For School Leaders", "desc": "Raise attainment. Save staff time. See everything." },
+      "/solutions/teachers": { "label": "For Teachers", "desc": "Spend less time on admin. More time teaching." },
+      "/solutions/students": { "label": "For Students & Parents", "desc": "Help whenever you need it, in your language." },
+      "/solutions/trusts": { "label": "For Trusts & School Groups", "desc": "One platform across every school in your trust." },
+      "/curriculum": { "label": "Curriculum" },
+      "/curriculum/cambridge": { "label": "Cambridge schools", "desc": "Built for the Cambridge classroom." },
+      "/curriculum/edexcel": { "label": "Edexcel schools", "desc": "Built for the Edexcel classroom." },
+      "/pricing": { "label": "Pricing" },
+      "/resources": { "label": "Resources" },
+      "/resources/case-studies": { "label": "Case Studies", "desc": "Schools, in their own words." },
+      "/resources/blog": { "label": "Blog / Insights", "desc": "Insights for modern schools." },
+      "/resources/events": { "label": "Webinars & Events", "desc": "Live and on-demand sessions." },
+      "/help": { "label": "Help Centre", "desc": "Searchable docs for customers." },
+      "/security": { "label": "Security & Compliance" },
+      "/about": { "label": "About RACO AI" },
+      "/about#mission": { "label": "Mission" },
+      "/about#team": { "label": "Team" },
+      "/about#careers": { "label": "Careers" },
+      "/contact": { "label": "Contact" },
+      "/demo": { "label": "Book a Live Demo" },
+      "/privacy": { "label": "Privacy" },
+      "/terms": { "label": "Terms" },
+      "/cookies": { "label": "Cookies" },
+      "/accessibility": { "label": "Accessibility" },
+      "/safeguarding": { "label": "Safeguarding" },
+      "/sitemap": { "label": "Sitemap" }
+    },
+    "groups": {
+      "teaching": "Teaching & learning",
+      "running": "Running your school",
+      "by-role": "By role",
+      "by-org": "By organisation",
+      "learn": "Learn"
+    },
+    "featured": {
+      "platform": {
+        "badge": "New",
+        "title": "AI Copilot",
+        "body": "A patient personal tutor for every student, 24/7, in their language."
+      },
+      "solutions": {
+        "badge": "Case study",
+        "title": "From five tools to one",
+        "body": "How a Cambridge school consolidated its stack in a single term."
+      }
+    },
+    "footerTitles": {
+      "platform": "Platform",
+      "solutions": "Solutions",
+      "resources": "Resources",
+      "company": "Company"
+    }
+  },
+
+  "trustBar": {
+    "ariaLabel": "Trusted by",
+    "headline": "Trusted by schools teaching Cambridge & Edexcel across 12 countries.",
+    "proofStats": [
+      { "value": "20+", "label": "languages, including RTL" },
+      { "value": "99.9%", "label": "platform uptime" },
+      { "value": "GDPR", "label": "UK/EU data residency" },
+      { "value": "WCAG 2.2 AA", "label": "accessible by design" }
+    ],
+    "boards": ["Cambridge International", "Pearson Edexcel"],
+    "schools": [
+      "Northgate International",
+      "St. Aldate’s Academy",
+      "Riverbank Trust",
+      "Al Noor Academy",
+      "Meridian College",
+      "Kingsway High"
+    ]
+  },
+
+  "capabilities": [
+    { "id": "ai-copilot", "name": "AI Copilot", "oneLiner": "A patient personal tutor for every student, 24/7, in their language." },
+    { "id": "simulations", "name": "Interactive Simulations", "oneLiner": "Hands-on physics, chemistry, maths & biology that make abstract ideas click." },
+    { "id": "courses", "name": "Courses & Curriculum", "oneLiner": "Ready-to-teach content aligned to Cambridge & Edexcel." },
+    { "id": "playgrounds", "name": "Playgrounds", "oneLiner": "Generate interactive activities for any topic in minutes with AI." },
+    { "id": "analytics", "name": "Progress & Analytics", "oneLiner": "See every learner’s journey — and prove impact with certificates." },
+    { "id": "white-label", "name": "Your Brand", "oneLiner": "White-label the whole platform as your school, on your domain." }
+  ],
+
+  "valuePillars": [
+    {
+      "pillar": "Curriculum-aligned",
+      "promise": "Built around Cambridge & Edexcel, not bolted on.",
+      "proof": "Course library, exam-board pages, learning objectives, past-paper alignment."
+    },
+    {
+      "pillar": "AI that teaches",
+      "promise": "A personal AI tutor (Copilot) plus AI-generated Playgrounds and simulations.",
+      "proof": "Copilot demo, 20+ live PhET simulations, Playgrounds explainer."
+    },
+    {
+      "pillar": "Your brand, your school",
+      "promise": "Fully white-label — your name, your colours, your domain.",
+      "proof": "Branding showcase, multi-language (20+), single sign-on."
+    },
+    {
+      "pillar": "Safe & accountable",
+      "promise": "GDPR, safeguarding and leadership analytics you can trust.",
+      "proof": "Security & compliance page, dashboards, certificates, audit trail."
+    }
+  ],
+
+  "painPoints": [
+    {
+      "title": "Teachers buried in admin",
+      "body": "Lesson prep, differentiation, marking and chasing — hours that should belong to teaching, or to going home."
+    },
+    {
+      "title": "Students falling through the gaps",
+      "body": "The learner who did not ask the question in class has nowhere to ask it afterwards. So they stay behind."
+    },
+    {
+      "title": "Leaders flying blind",
+      "body": "Five tools, five dashboards, no single view of attainment, engagement or safeguarding across the school."
+    }
+  ],
+
+  "personas": [
+    {
+      "id": "leaders",
+      "title": "For Leaders",
+      "points": ["One accountable platform", "Live insight into attainment", "Safeguarding built in"],
+      "ctaLabel": "Explore for Leaders"
+    },
+    {
+      "id": "teachers",
+      "title": "For Teachers",
+      "points": ["Hours back each week", "Differentiation done for you", "Curriculum-ready content"],
+      "ctaLabel": "Explore for Teachers"
+    },
+    {
+      "id": "students",
+      "title": "For Students",
+      "points": ["A tutor in your pocket", "Engaging lessons", "Learning in your own language"],
+      "ctaLabel": "Explore for Students"
+    }
+  ],
+
+  "howItWorks": [
+    {
+      "title": "Book a demo",
+      "body": "We tailor it to your subjects, your exam board and the outcomes your leadership team cares about."
+    },
+    {
+      "title": "Set up & brand",
+      "body": "We import your courses and apply your identity — your name, colours and domain — before staff ever log in."
+    },
+    {
+      "title": "Launch & support",
+      "body": "Training for staff, help for students, and a named partner on hand through the first term and beyond."
+    }
+  ],
+
+  "testimonials": [
+    {
+      "quote": "We replaced four subscriptions with one platform that actually looks like our school. The staff noticed in week one; the governors noticed in term one.",
+      "name": "Placeholder Name",
+      "role": "Head Teacher",
+      "school": "Northgate International",
+      "country": "United Kingdom",
+      "placeholder": true
+    },
+    {
+      "quote": "Copilot answers the questions I never had time for. My Year 10 group arrives already having had the explanation twice — in their own language.",
+      "name": "Placeholder Name",
+      "role": "Head of Science",
+      "school": "Al Noor Academy",
+      "country": "United Arab Emirates",
+      "placeholder": true
+    }
+  ],
+
+  "featuredCaseStudy": {
+    "eyebrow": "Case study",
+    "title": "From five tools to one, in a single term",
+    "body": "A 900-student Cambridge school consolidated its tutoring app, video library, quiz tool and fee spreadsheet into RacoLearnHub — and gave teaching staff their evenings back.",
+    "stats": [
+      { "value": "6.5h", "label": "saved per teacher, per week" },
+      { "value": "4→1", "label": "platforms retired" },
+      { "value": "+18%", "label": "assessment completion" }
+    ],
+    "href": "/resources/case-studies"
+  },
+
+  "pricingTiers": [
+    {
+      "id": "essentials",
+      "name": "Essentials",
+      "forWhom": "Single schools getting started",
+      "summary": "Everything a school needs to teach, brand and measure from day one.",
+      "includes": [
+        "Curriculum-aligned course library",
+        "Interactive simulations",
+        "AI Copilot for every student",
+        "White-label branding & your domain",
+        "Core progress analytics",
+        "Email support"
+      ],
+      "ctaLabel": "Book a demo",
+      "ctaHref": "/demo"
+    },
+    {
+      "id": "professional",
+      "name": "Professional",
+      "badge": "Most popular",
+      "forWhom": "Schools going all-in",
+      "summary": "The full platform — including Playgrounds, communities, payments and SSO.",
+      "includes": [
+        "Everything in Essentials",
+        "AI Playgrounds",
+        "Class & subject communities",
+        "Payments & fee administration",
+        "Advanced leadership analytics",
+        "Single sign-on (SSO)",
+        "Priority support & onboarding"
+      ],
+      "featured": true,
+      "ctaLabel": "Book a demo",
+      "ctaHref": "/demo"
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise / Trust",
+      "forWhom": "Trusts & school groups",
+      "summary": "Central oversight with per-school branding, plus a dedicated partnership.",
+      "includes": [
+        "Everything in Professional",
+        "Multi-school central administration",
+        "Cross-school analytics",
+        "Custom integrations & data exports",
+        "Dedicated customer success",
+        "Contractual SLA"
+      ],
+      "ctaLabel": "Talk to sales",
+      "ctaHref": "/contact"
+    }
+  ],
+
+  "pricingFaq": [
+    {
+      "q": "How is RacoLearnHub priced?",
+      "a": "Simple per-student or per-school plans, billed annually. Because one platform replaces several, it often costs less than the tools it retires. Exact commercials are confirmed on your demo call."
+    },
+    {
+      "q": "How long is the contract?",
+      "a": "Annual terms aligned to your academic year, with multi-year options for trusts. We would rather earn the renewal than lock you in."
+    },
+    {
+      "q": "Can we run a pilot first?",
+      "a": "Yes. Most schools start with a department or a year group for a term, then extend once the results are in front of leadership."
+    },
+    {
+      "q": "Do you support grant or trust funding?",
+      "a": "We provide the documentation procurement teams need — security pack, data-processing terms, pricing schedule and ROI summary."
+    },
+    {
+      "q": "Is there a checkout?",
+      "a": "No. Every plan routes to a conversation, because the right configuration depends on your curriculum, size and existing tools."
+    }
+  ],
+
+  "examBoards": [
+    {
+      "id": "cambridge",
+      "name": "Cambridge",
+      "fullName": "Cambridge International",
+      "body": "Courses, simulations and assessments mapped to Cambridge specifications, from Lower Secondary through IGCSE and A Level.",
+      "linkCue": "See {name} alignment"
+    },
+    {
+      "id": "edexcel",
+      "name": "Edexcel",
+      "fullName": "Pearson Edexcel",
+      "body": "Content and pathways aligned to Edexcel assessment objectives, with past-paper practice built into every course.",
+      "linkCue": "See {name} alignment"
+    }
+  ],
+
+  "securityPillars": [
+    {
+      "title": "Data protection & GDPR",
+      "body": "UK GDPR and EU GDPR aligned, with a data-processing agreement, records of processing and a named DPO contact."
+    },
+    {
+      "title": "Where your data lives",
+      "body": "Hosted in the UK/EU with documented residency. Regional hosting available for international schools on request."
+    },
+    {
+      "title": "Safeguarding & child safety",
+      "body": "Age-appropriate AI, monitored communities, keyword flagging and teacher controls across every student-facing surface."
+    },
+    {
+      "title": "Access & single sign-on",
+      "body": "SSO via Microsoft Entra ID and Google Workspace, role-based permissions and a full administrative audit trail."
+    },
+    {
+      "title": "Accessibility",
+      "body": "Targeting WCAG 2.2 AA across product and marketing site, with a published accessibility statement."
+    },
+    {
+      "title": "Uptime & reliability",
+      "body": "99.9% uptime target, monitored around the clock, with a public status page and incident communications."
+    },
+    {
+      "title": "AI responsibility",
+      "body": "No training on your school’s data. Copilot answers are grounded in your course material, not the open internet."
+    },
+    {
+      "title": "Certifications & policies",
+      "body": "Downloadable security pack: policies, sub-processor list, penetration-test summary and compliance posture."
+    }
+  ],
+
+  "platformPages": {
+    "ai-copilot": {
+      "eyebrow": "AI Copilot",
+      "name": "AI Copilot",
+      "h1": "The AI tutor that knows your curriculum.",
+      "sub": "Copilot gives every student patient, step-by-step help grounded in your course material — 24/7, in 20+ languages.",
+      "pillars": ["Patient", "Personal", "Grounded", "Safe"],
+      "ctaLabel": "See Copilot live",
+      "ctaHref": "/demo",
+      "sections": [
+        {
+          "title": "Grounded in your content, not the open web",
+          "body": "Every answer is retrieved from the courses your school has loaded, and shown with the chapter it came from. When Copilot does not know, it says so and points the student to their teacher.",
+          "points": [
+            "Answers cite the source chapter or resource",
+            "No answers invented from outside your material",
+            "Teachers can see and audit every conversation"
+          ]
+        },
+        {
+          "title": "Adapts to each learner",
+          "body": "Copilot reads where a student is stuck and adjusts explanation, vocabulary and pace — the same concept explained three different ways for three different learners.",
+          "points": [
+            "Level-aware explanations, from foundation to extension",
+            "Follows the learner’s language preference automatically",
+            "Suggests the next step rather than handing over answers"
+          ]
+        },
+        {
+          "title": "Safe by design",
+          "body": "Age-appropriate responses, monitored conversations, keyword flagging to safeguarding leads, and a hard rule: your school’s data is never used to train models.",
+          "points": [
+            "Age-appropriate guardrails per year group",
+            "Safeguarding alerts routed to your designated lead",
+            "No training on your data — contractually"
+          ]
+        },
+        {
+          "title": "Teacher controls",
+          "body": "Teachers decide what Copilot can discuss, when it is available, and how much help it gives during assessment. It is an assistant to the teacher, not a replacement for one.",
+          "points": [
+            "Per-class and per-assessment availability",
+            "Adjustable help level, from hints to full worked examples",
+            "Visibility of the questions students are actually asking"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can Copilot just do students’ homework for them?",
+          "a": "Teachers set the help level. In assessment mode Copilot offers hints and questions rather than answers, and every conversation is visible to staff."
+        },
+        {
+          "q": "Which languages does it support?",
+          "a": "The same 20+ languages as the platform, including right-to-left languages such as Arabic and Urdu. A student can ask in their home language about an English-language course."
+        },
+        {
+          "q": "Is our content used to train your models?",
+          "a": "No. Your course material and student conversations are never used for model training. This is written into the data-processing agreement."
+        }
+      ]
+    },
+    "simulations": {
+      "eyebrow": "Interactive Simulations",
+      "name": "Interactive Simulations",
+      "h1": "Science and maths you can touch.",
+      "sub": "20+ interactive simulations across physics, chemistry, maths and biology — hands-on learning that makes concepts stick.",
+      "pillars": ["Hands-on", "Research-backed", "Embeddable", "Mobile-ready"],
+      "ctaLabel": "Launch a simulation",
+      "ctaHref": "/demo",
+      "sections": [
+        {
+          "title": "Browse by subject",
+          "body": "Projectile motion, circuit building, molecule shapes, balancing equations, natural selection, graphing — organised by subject and mapped to the topics you already teach.",
+          "points": ["Physics, chemistry, biology and maths", "Mapped to Cambridge and Edexcel topics", "Filter by year group and difficulty"]
+        },
+        {
+          "title": "Embedded, full-screen, mobile-ready",
+          "body": "Drop a simulation into any lesson, open it full-screen on the projector, or let students explore it on a phone on the bus home. Same simulation, every device.",
+          "points": ["Inline in courses and assignments", "Full-screen presentation mode", "Touch-first on tablets and phones"]
+        },
+        {
+          "title": "Pair with lessons and Copilot",
+          "body": "A simulation next to a Copilot conversation turns exploration into understanding — students can ask \"why did that happen?\" the moment it happens.",
+          "points": ["Copilot understands the simulation context", "Attach guiding questions to any simulation", "Capture student observations for marking"]
+        },
+        {
+          "title": "Built on trusted, research-backed simulations",
+          "body": "Our science simulations build on PhET Interactive Simulations from the University of Colorado Boulder — decades of education research, not a novelty.",
+          "points": ["Research-validated pedagogy", "Used in classrooms worldwide", "Continuously extended with new topics"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do simulations work offline?",
+          "a": "Simulations need a connection to load, but run entirely in the browser afterwards — they hold up on the patchy school Wi-Fi at the back of a science block."
+        },
+        {
+          "q": "Can we request a simulation we need?",
+          "a": "Yes. Playgrounds lets teachers generate an interactive activity for any topic, and we build requested simulations into the core library on a rolling basis."
+        }
+      ]
+    },
+    "courses": {
+      "eyebrow": "Courses & Curriculum",
+      "name": "Courses & Curriculum",
+      "h1": "Curriculum-ready content, day one.",
+      "sub": "Structured courses aligned to Cambridge and Edexcel — or build your own, with AI doing the heavy lifting.",
+      "pillars": ["Ready-made", "Aligned", "Authorable", "Multimodal"],
+      "ctaLabel": "Explore the curriculum",
+      "ctaHref": "/curriculum",
+      "sections": [
+        {
+          "title": "A ready-made library",
+          "body": "Courses across the core subjects, structured into units, lessons and assessments — usable on the first day of term, not the first day of next year.",
+          "points": ["Core subjects covered at each key stage", "Units, lessons, activities and assessments", "Progress tracked automatically"]
+        },
+        {
+          "title": "Aligned to learning objectives and past papers",
+          "body": "Every lesson maps to specification points and assessment objectives, with past-paper style practice attached so revision is not a separate workflow.",
+          "points": ["Specification mapping per lesson", "Assessment objective tagging", "Past-paper style question banks"]
+        },
+        {
+          "title": "Author your own courses",
+          "body": "Your best teachers already have the material. Bring it in, and AI structures it into lessons, generates questions and fills the gaps you point at.",
+          "points": ["Import existing schemes of work", "AI-assisted lesson and question generation", "Departmental review before publishing"]
+        },
+        {
+          "title": "Collections, pathways and media",
+          "body": "Group courses into pathways for a year group, an intervention cohort or a summer school — and include podcasts, video and reading alongside interactive work.",
+          "points": ["Learning pathways per cohort", "Podcasts and media built in", "Reusable collections across year groups"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can we bring our own schemes of work?",
+          "a": "Yes — that is the normal path. Most schools import existing material during onboarding and let the platform structure it, rather than starting from scratch."
+        },
+        {
+          "q": "Who owns the content we author?",
+          "a": "You do. Content your staff create stays yours, and you can export it at any time."
+        }
+      ]
+    },
+    "playgrounds": {
+      "eyebrow": "Playgrounds",
+      "name": "Playgrounds",
+      "h1": "Generate an interactive lesson in minutes.",
+      "sub": "Describe a topic; Playgrounds builds an interactive, AI-generated experience your students can explore.",
+      "pillars": ["Fast", "Interactive", "Teacher-controlled", "Shareable"],
+      "ctaLabel": "See Playgrounds in a demo",
+      "ctaHref": "/demo",
+      "sections": [
+        {
+          "title": "From prompt to activity",
+          "body": "Type what you want students to understand. Playgrounds generates an interactive activity — a model, a sorter, a simulation, a scenario — in the time it takes to make a coffee.",
+          "points": ["Plain-English prompts, no technical setup", "Multiple activity types generated", "Edit before anything reaches students"]
+        },
+        {
+          "title": "Examples by subject",
+          "body": "A supply-and-demand model for economics, a titration walkthrough for chemistry, a sentence-structure builder for languages — the range is the point.",
+          "points": ["Works across humanities, sciences and languages", "Starter gallery to build from", "Save to your department library"]
+        },
+        {
+          "title": "Teacher in control",
+          "body": "Nothing generated goes live automatically. You review, edit and approve — then share to a class, a set or a single student who needs a different angle.",
+          "points": ["Review and edit before publishing", "Version history on every activity", "Curriculum tagging on save"]
+        },
+        {
+          "title": "Share to a class",
+          "body": "One click to a class, a group or an individual, with progress tracked in the same dashboards as everything else.",
+          "points": ["Share to class, group or student", "Progress feeds the same analytics", "Reusable next year"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How accurate is generated content?",
+          "a": "Playgrounds drafts; teachers approve. Nothing reaches students without a member of staff reviewing it, which is exactly where professional judgement belongs."
+        }
+      ]
+    },
+    "community": {
+      "eyebrow": "Community & Collaboration",
+      "name": "Community & Collaboration",
+      "h1": "Keep learning social — and safe.",
+      "sub": "Moderated communities and discussions that keep students connected to their class and teachers.",
+      "pillars": ["Connected", "Moderated", "Purposeful", "Safe"],
+      "ctaLabel": "Book a demo",
+      "ctaHref": "/demo",
+      "sections": [
+        {
+          "title": "Class and subject communities",
+          "body": "A space per class and per subject where questions get asked out loud — including the ones students would never raise with their hand up.",
+          "points": ["Per-class and per-subject spaces", "Threaded questions and answers", "Teacher and peer responses"]
+        },
+        {
+          "title": "Moderated discussions",
+          "body": "Automated moderation plus human oversight. Flagged content routes to the right member of staff with the context attached.",
+          "points": ["Automated content filtering", "Escalation to named staff", "Full moderation audit trail"]
+        },
+        {
+          "title": "Announcements",
+          "body": "Reach a class, a year group or the whole school without adding another messaging app to the pile.",
+          "points": ["Targeted announcements", "Read receipts for staff", "Multi-language delivery"]
+        },
+        {
+          "title": "Safeguarding controls",
+          "body": "Direct messaging policy, keyword alerting, retention rules and reporting — configured to your safeguarding policy, not ours.",
+          "points": ["Configurable DM policy", "Keyword and sentiment alerting", "Retention aligned to your policy"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can students message each other privately?",
+          "a": "Only if your school enables it. Many schools run communities with peer-to-peer DMs disabled entirely; the setting is yours."
+        }
+      ]
+    },
+    "analytics": {
+      "eyebrow": "Progress & Analytics",
+      "name": "Progress & Analytics",
+      "h1": "See how every learner is really doing.",
+      "sub": "Dashboards for students, teachers and leaders — plus certificates that prove completion.",
+      "pillars": ["Live", "Actionable", "Exportable", "Accountable"],
+      "ctaLabel": "See the dashboards",
+      "ctaHref": "/demo",
+      "sections": [
+        {
+          "title": "Student progress & trails",
+          "body": "Every student sees where they are, what is next and what they have mastered — progress as motivation, not surveillance.",
+          "points": ["Personal progress view", "Mastery by topic", "Next-step recommendations"]
+        },
+        {
+          "title": "Teacher class views",
+          "body": "One screen per class showing who is thriving, who is stuck and where the whole group has misunderstood the same thing.",
+          "points": ["Class heatmap by topic", "Individual drill-down", "Common misconception surfacing"]
+        },
+        {
+          "title": "Leadership dashboards",
+          "body": "Attainment, engagement and platform adoption across departments and year groups — the whole-school view that spreadsheets never gave you.",
+          "points": ["Cross-department comparison", "Engagement and adoption tracking", "Trends across the academic year"]
+        },
+        {
+          "title": "Certificates, export & reporting",
+          "body": "Completion certificates for students, and clean exports for your MIS, governors’ reports and inspection evidence.",
+          "points": ["Branded completion certificates", "CSV and API export", "Scheduled reports to inbox"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does it integrate with our MIS?",
+          "a": "Data exports via CSV and API are available on every plan; direct MIS integrations are scoped as part of Enterprise onboarding."
+        }
+      ]
+    },
+    "white-label": {
+      "eyebrow": "White-label & Branding",
+      "name": "White-label & Branding",
+      "h1": "Your school, front and centre.",
+      "sub": "Your logo, colours, name and domain — a platform families recognise as yours, in 20+ languages.",
+      "pillars": ["Yours", "Consistent", "Multilingual", "Seamless"],
+      "ctaLabel": "Book a branded demo",
+      "ctaHref": "/demo",
+      "sections": [
+        {
+          "title": "Full brand control",
+          "body": "Logo, palette, typography and tone applied across the platform — web, email and certificates. Students see their school, not a vendor.",
+          "points": ["Logo, colours and type", "Branded email and certificates", "No RacoLearnHub branding shown"]
+        },
+        {
+          "title": "Custom domain",
+          "body": "Runs on your domain — learn.yourschool.org — with certificates and DNS handled during onboarding.",
+          "points": ["Your subdomain or domain", "Managed TLS certificates", "Set up before staff onboarding"]
+        },
+        {
+          "title": "20+ languages including RTL",
+          "body": "Interface and content available in over 20 languages, with genuine right-to-left support for Arabic and Urdu — mirrored layouts, not flipped text.",
+          "points": ["Direction-aware layouts", "Per-user language preference", "Locale-aware dates and numbers"]
+        },
+        {
+          "title": "Single sign-on",
+          "body": "Microsoft Entra ID or Google Workspace, so nobody manages another password and offboarding a leaver actually removes their access.",
+          "points": ["Microsoft and Google SSO", "Automatic provisioning", "Role mapping from your directory"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Will anyone know it’s RacoLearnHub?",
+          "a": "Not from the interface. The platform carries your identity throughout; ours appears only in the contract."
+        }
+      ]
+    },
+    "payments": {
+      "eyebrow": "Payments & Admin",
+      "name": "Payments & Admin",
+      "h1": "Fees and admin, handled.",
+      "sub": "Collect tuition and fees, track payments, and manage your school — without the spreadsheets.",
+      "pillars": ["Simple", "Automated", "Auditable", "Integrated"],
+      "ctaLabel": "Talk to our team",
+      "ctaHref": "/contact",
+      "sections": [
+        {
+          "title": "Fee collection & history",
+          "body": "Take payments for tuition, trips and materials, with a full history per family and per student in the same place as everything else.",
+          "points": ["Card and bank payment options", "Per-family payment history", "Partial payments and plans"]
+        },
+        {
+          "title": "Automated reminders",
+          "body": "Polite, automatic reminders on your schedule — so chasing fees stops being a person’s job.",
+          "points": ["Configurable reminder cadence", "Multi-language reminders", "Escalation to the bursar"]
+        },
+        {
+          "title": "Roles & permissions",
+          "body": "Granular permissions so finance sees finance, teaching sees teaching, and the audit trail shows who changed what.",
+          "points": ["Role-based access control", "Delegated administration", "Full change audit log"]
+        },
+        {
+          "title": "Enrolment & reporting",
+          "body": "Manage enrolment through the year and report on it without exporting three systems into a spreadsheet first.",
+          "points": ["Enrolment and cohort management", "Finance reporting", "Export for your accounting system"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which payment providers do you support?",
+          "a": "Payment provider options depend on your country and are confirmed during onboarding — this is one to raise on your demo call."
+        }
+      ]
+    }
+  },
+
+  "solutionPages": {
+    "leaders": {
+      "eyebrow": "For School Leaders",
+      "name": "For School Leaders",
+      "h1": "Raise attainment. Save staff time. See everything.",
+      "sub": "One accountable platform that lifts outcomes, gives teachers their time back, and gives you a live view of your whole school.",
+      "ctaLabel": "Book a Live Demo",
+      "ctaHref": "/demo",
+      "stats": [
+        { "value": "6.5h", "label": "saved per teacher, per week" },
+        { "value": "4→1", "label": "platforms consolidated" },
+        { "value": "99.9%", "label": "uptime" }
+      ],
+      "sections": [
+        {
+          "title": "The leadership case",
+          "body": "Attainment, efficiency and oversight in one business case: better outcomes for students, hours back for staff, and a single accountable supplier instead of five.",
+          "points": ["Measurable attainment and engagement data", "Staff time recovered from admin", "One contract, one supplier, one bill"]
+        },
+        {
+          "title": "Live analytics",
+          "body": "Whole-school dashboards updated continuously — by department, year group and cohort — so governors’ reports write themselves.",
+          "points": ["Cross-department comparison", "Cohort and intervention tracking", "Exportable for governors and inspection"]
+        },
+        {
+          "title": "Safeguarding & compliance",
+          "body": "GDPR-aligned, UK/EU hosted, with safeguarding controls and audit trails that satisfy your DSL and your DPO.",
+          "points": ["Safeguarding alerts to named staff", "Full administrative audit trail", "Security pack for procurement"]
+        },
+        {
+          "title": "Consolidate tools & cost",
+          "body": "One platform retires the tutoring app, the video library, the quiz tool and the fee spreadsheet — which is usually where the budget comes from.",
+          "points": ["Replaces multiple subscriptions", "Single procurement process", "Transparent per-student pricing"]
+        },
+        {
+          "title": "Rollout & support",
+          "body": "A named partner through onboarding, staff training built into the plan, and support that answers before the lesson is over.",
+          "points": ["Structured rollout plan", "Staff training included", "Named customer success contact"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How long does rollout take?",
+          "a": "Most single schools are teaching on the platform within a half-term: branding and course import first, then staff training, then students."
+        },
+        {
+          "q": "What does this replace?",
+          "a": "Typically a tutoring or homework app, a video/content library, a quiz or assessment tool, and a fee-tracking spreadsheet — sometimes an LMS as well."
+        }
+      ]
+    },
+    "teachers": {
+      "eyebrow": "For Teachers",
+      "name": "For Teachers",
+      "h1": "Spend less time on admin. More time teaching.",
+      "sub": "Curriculum-ready content, AI that differentiates for you, and a tutor that answers the questions you can’t get to.",
+      "ctaLabel": "See a teacher demo",
+      "ctaHref": "/demo",
+      "stats": [
+        { "value": "6.5h", "label": "saved per week" },
+        { "value": "3 min", "label": "to build an activity" },
+        { "value": "24/7", "label": "student support" }
+      ],
+      "sections": [
+        {
+          "title": "A week in the life — before and after",
+          "body": "Before: three evenings on resources, a weekend on differentiation, and a queue of students you never reached. After: content that is already aligned, differentiation generated, and questions answered while you sleep.",
+          "points": ["Resources ready, not built from scratch", "Differentiation generated per learner", "The quiet questions finally get asked"]
+        },
+        {
+          "title": "Differentiation made easy",
+          "body": "One lesson, three levels, automatically — foundation, core and extension generated from the same material and assigned in a click.",
+          "points": ["Automatic level variants", "Assign per student or per group", "Adjust anything before it goes out"]
+        },
+        {
+          "title": "Copilot as your teaching assistant",
+          "body": "Copilot handles the twentieth \"can you explain that again?\" so you can spend the lesson on the students who need you in the room.",
+          "points": ["Answers grounded in your material", "Visible to you, always", "Shows what the class is stuck on"]
+        },
+        {
+          "title": "Build & share in minutes",
+          "body": "Playgrounds turns a topic description into an interactive activity, ready to review and share to your class before the bell.",
+          "points": ["Prompt to activity in minutes", "Department library to share into", "Reusable next year"]
+        },
+        {
+          "title": "Track your class",
+          "body": "One screen showing who is thriving, who is stuck, and which misconception the whole group shares.",
+          "points": ["Class heatmap by topic", "Individual drill-down", "Evidence ready for parents’ evening"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How much training will I need?",
+          "a": "Most teachers are running lessons after a single session. The platform is designed to be usable before it is mastered."
+        },
+        {
+          "q": "Does the AI mark my students’ work?",
+          "a": "It drafts and suggests; you decide. Professional judgement stays with the teacher, by design."
+        }
+      ]
+    },
+    "students": {
+      "eyebrow": "For Students & Parents",
+      "name": "For Students & Parents",
+      "h1": "Help whenever you need it, in your language.",
+      "sub": "A personal AI tutor, interactive lessons, and a place to learn that works on any device.",
+      "ctaLabel": "Ask your school about RacoLearnHub",
+      "ctaHref": "/contact",
+      "stats": [
+        { "value": "24/7", "label": "always available" },
+        { "value": "20+", "label": "languages" },
+        { "value": "Any", "label": "device" }
+      ],
+      "sections": [
+        {
+          "title": "Learn your way",
+          "body": "Read it, watch it, try it or ask about it. The same topic, in whichever form finally makes it click.",
+          "points": ["Text, video, audio and interactive", "Work at your own pace", "Pick up where you left off, on any device"]
+        },
+        {
+          "title": "Never stuck for long",
+          "body": "Copilot explains things as many times as you need, in as many ways as it takes — without anyone sighing.",
+          "points": ["Ask anything, any time", "Step-by-step explanations", "Ask in your home language"]
+        },
+        {
+          "title": "Fun, hands-on simulations",
+          "body": "Drop a ball, build a circuit, balance an equation. Some things you only understand once you have broken them.",
+          "points": ["20+ interactive simulations", "Works on a phone", "Explore, don’t just revise"]
+        },
+        {
+          "title": "For parents: visibility & peace of mind",
+          "body": "See what your child is learning and how they are getting on — and know the platform is monitored, age-appropriate and run by their school.",
+          "points": ["Progress visible to parents", "School-controlled and monitored", "Available in your language"]
+        },
+        {
+          "title": "Accessible & multilingual",
+          "body": "Built to WCAG 2.2 AA, keyboard-operable, screen-reader friendly, and available in 20+ languages including right-to-left.",
+          "points": ["Screen-reader and keyboard support", "Adjustable text and contrast", "Right-to-left languages supported"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I sign up myself?",
+          "a": "RacoLearnHub is provided by schools rather than sold to families directly — ask your school whether they use it, or point them our way."
+        },
+        {
+          "q": "Is it safe?",
+          "a": "Conversations are monitored, content is age-appropriate, and your school controls the settings. Student data is never used to train AI models."
+        }
+      ]
+    },
+    "trusts": {
+      "eyebrow": "For Trusts & School Groups",
+      "name": "For Trusts & School Groups",
+      "h1": "One platform across every school in your trust.",
+      "sub": "Standardise quality, compare across schools, and buy once — with per-school branding and central oversight.",
+      "ctaLabel": "Talk to our schools team",
+      "ctaHref": "/contact",
+      "stats": [
+        { "value": "1", "label": "contract, many schools" },
+        { "value": "Per-school", "label": "branding retained" },
+        { "value": "Central", "label": "oversight & reporting" }
+      ],
+      "sections": [
+        {
+          "title": "Central + per-school control",
+          "body": "Set standards centrally, let each school keep its own identity. Shared curriculum, separate front doors.",
+          "points": ["Trust-level policy and defaults", "Per-school branding and domains", "Shared curriculum libraries"]
+        },
+        {
+          "title": "Cross-school analytics",
+          "body": "Compare attainment, engagement and adoption across your schools — and see which practice is worth spreading.",
+          "points": ["Like-for-like school comparison", "Trust-wide attainment trends", "Adoption and engagement tracking"]
+        },
+        {
+          "title": "Procurement made simple",
+          "body": "One contract, one security review, one invoice — with the documentation your procurement team asks for up front.",
+          "points": ["Single contract and DPA", "Security pack for review", "Consolidated invoicing"]
+        },
+        {
+          "title": "Volume pricing",
+          "body": "Pricing that reflects the size of your estate, with predictable per-student economics as schools join.",
+          "points": ["Volume-based per-student pricing", "Predictable growth model", "Multi-year options"]
+        },
+        {
+          "title": "Dedicated partnership",
+          "body": "A named team, a rollout plan per school, and an SLA that matches the scale of the commitment.",
+          "points": ["Named customer success team", "Per-school rollout planning", "Contractual SLA"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can schools join in phases?",
+          "a": "Yes — most trusts start with two or three schools, prove the model, then extend across the estate at the start of an academic year."
+        },
+        {
+          "q": "Can each school keep its own branding?",
+          "a": "Yes. Central standards and per-school identity are not in tension here: schools keep their own look, domain and voice."
+        }
+      ]
+    }
+  },
+
+  "curriculumPages": {
+    "cambridge": {
+      "board": "Cambridge",
+      "fullName": "Cambridge International",
+      "h1": "Built for the Cambridge classroom.",
+      "sub": "Courses, simulations and assessments mapped to Cambridge specifications — so learning lines up with what students are examined on.",
+      "levels": ["Cambridge Lower Secondary", "Cambridge IGCSE", "Cambridge International AS & A Level"],
+      "subjects": ["Mathematics", "Physics", "Chemistry", "Biology", "Computer Science", "English", "Economics", "Business Studies"],
+      "linkCue": "See {board} alignment",
+      "ctaLabel": "Book a demo for your {board} subjects",
+      "secondaryLabel": "See the course library"
+    },
+    "edexcel": {
+      "board": "Edexcel",
+      "fullName": "Pearson Edexcel",
+      "h1": "Built for the Edexcel classroom.",
+      "sub": "Courses, simulations and assessments mapped to Edexcel specifications — so learning lines up with what students are examined on.",
+      "levels": ["Edexcel International GCSE", "Edexcel GCSE", "Edexcel International A Level", "Edexcel A Level"],
+      "subjects": ["Mathematics", "Physics", "Chemistry", "Biology", "Computer Science", "English Language", "Economics", "Business"],
+      "linkCue": "See {board} alignment",
+      "ctaLabel": "Book a demo for your {board} subjects",
+      "secondaryLabel": "See the course library"
+    }
+  },
+
+  "pages": {
+    "home": {
+      "hero": {
+        "eyebrow": "The AI-native learning platform for schools",
+        "titlePre": "Give every student a tutor.",
+        "titleGradient": "Give every teacher their time back.",
+        "sub": "RacoLearnHub brings curriculum-aligned courses, interactive simulations and a 24/7 AI tutor into one platform — branded as your school, in over 20 languages, with the safeguarding and insight leaders need.",
+        "watchCta": "Watch the 2-min overview",
+        "reassure": [
+          { "text": "30 minutes" },
+          { "text": "With a specialist, not a sales bot" },
+          { "text": "No obligation" }
+        ]
+      },
+      "problem": {
+        "statement": "Your school runs on too many disconnected tools.",
+        "sub": "A tutoring app here, a video library there, quizzes in one place, payments in a spreadsheet — nothing aligned to your curriculum, nothing that looks like your school, and no single view of how students are really doing."
+      },
+      "answer": {
+        "eyebrow": "The answer",
+        "title": "Everything your school needs to teach, in one place.",
+        "sub": "One platform replaces the patchwork — aligned to your exam board, branded as your school, and built so the AI actually teaches.",
+        "bentoLeadEyebrow": "Where it starts",
+        "bentoLeadCta": "Explore Copilot"
+      },
+      "copilotSpot": {
+        "eyebrow": "AI Copilot",
+        "title": "A tutor for every student — without hiring one.",
+        "body": "Copilot answers questions, explains concepts step by step, and adapts to each learner's level — grounded in your course material, not the open internet. It never gets tired, never judges, and speaks your students' language.",
+        "points": [
+          "Grounded in your courses — every answer cites its source",
+          "Adapts to each learner’s level and pace",
+          "Safe by design: age-appropriate, monitored, teacher-visible",
+          "Available 24/7 in 20+ languages"
+        ],
+        "ctaLabel": "See Copilot in your demo"
+      },
+      "simsSpot": {
+        "eyebrow": "Simulations & Playgrounds",
+        "title": "Make the abstract impossible to forget.",
+        "body": "Twenty-plus interactive simulations across physics, chemistry, maths and biology — from projectile motion to gene expression — plus AI-built Playgrounds you can spin up for any topic. Learning by doing, not just watching.",
+        "points": [
+          "Built on trusted, research-backed PhET simulations",
+          "Embeddable in any lesson, full-screen and mobile-ready",
+          "Playgrounds: describe a topic, get an interactive activity",
+          "Pair any simulation with Copilot for guided exploration"
+        ],
+        "ctaLabel": "Try a live simulation"
+      },
+      "roles": {
+        "eyebrow": "Outcomes by role",
+        "title": "Built for everyone in your school.",
+        "sub": "The same platform, three very different jobs to be done."
+      },
+      "curriculum": {
+        "eyebrow": "Curriculum",
+        "title": "Aligned to the exam boards you already teach.",
+        "sub": "Content and pathways mapped to Cambridge and Edexcel, so what students learn maps to what they’re assessed on."
+      },
+      "brandSpot": {
+        "eyebrow": "White-label",
+        "title": "It’s your platform. It just runs on ours.",
+        "body": "Your name, your colours, your domain — and every word available in 20+ languages, including right-to-left, so every family feels at home.",
+        "points": [
+          "Your logo, palette and typography throughout",
+          "Your own domain: learn.yourschool.org",
+          "20+ languages including Arabic and Urdu (RTL)",
+          "Single sign-on with Microsoft or Google"
+        ],
+        "ctaLabel": "See white-label"
+      },
+      "security": {
+        "eyebrow": "Security & safeguarding",
+        "title": "Safe for students. Trusted by IT.",
+        "body": "GDPR-compliant, hosted in the UK/EU, single sign-on, WCAG-accessible, with safeguarding controls throughout.",
+        "cta": "Read about security & compliance"
+      },
+      "proof": { "eyebrow": "Why schools switch" },
+      "how": {
+        "eyebrow": "How it works",
+        "title": "Live in weeks, not terms.",
+        "sub": "No year-long implementation project. Most schools are teaching on RacoLearnHub inside a half-term."
+      },
+      "pricingSignpost": {
+        "statement": "Pricing that scales with your school.",
+        "sub": "Simple per-student or per-school plans. Because one platform replaces many, it often costs less than the tools it retires.",
+        "cta": "See plans",
+        "secondary": "Get a tailored quote"
+      },
+      "copilotMock": {
+        "badge": "AI Copilot",
+        "safeBadge": "Safeguarding on",
+        "avatar": "AM",
+        "question": "I don’t understand why the ball keeps moving when nothing is pushing it.",
+        "answerPre": "Good question — that’s Newton’s first law. Nothing needs to push it to keep it moving; something has to push it to make it",
+        "answerEm": "stop",
+        "source": "Based on: Chapter 4 — Forces · Your course",
+        "note": "Grounded in your school’s course material — never the open internet. Teachers see every conversation."
+      },
+      "simulationMock": {
+        "barLabel": "Simulations · Year 10 Physics",
+        "cells": [
+          { "name": "Projectile motion", "subject": "Physics", "icon": "Rocket" },
+          { "name": "Balancing equations", "subject": "Chemistry", "icon": "FlaskConical" },
+          { "name": "Gene expression", "subject": "Biology", "icon": "Dna" },
+          { "name": "Graphing quadratics", "subject": "Maths", "icon": "Sigma" }
+        ],
+        "note": "Live, embeddable and mobile-ready — students explore, they don’t just watch."
+      },
+      "brandMock": {
+        "schools": [
+          { "name": "Northgate International", "domain": "learn.northgate.edu", "hue": "--brand-600", "dir": "ltr" },
+          { "name": "Al Noor Academy", "domain": "منصة.alnoor.ae", "hue": "--trust-500", "dir": "rtl" },
+          { "name": "Riverbank Trust", "domain": "hub.riverbank.org.uk", "hue": "--warm-500", "dir": "ltr" }
+        ],
+        "caption": "Same platform. Three schools. Nobody sees ours."
+      }
+    },
+
+    "platform": {
+      "hero": {
+        "eyebrow": "Platform",
+        "title": "One platform. Every part of learning.",
+        "sub": "From an AI tutor to interactive simulations, curriculum content to community and payments — see how the pieces fit together.",
+        "crumb": "Platform",
+        "secondary": "See pricing"
+      },
+      "trustHeadline": "One platform, replacing the five your school is paying for today.",
+      "capabilities": {
+        "eyebrow": "Capabilities",
+        "title": "Eight capabilities, one login.",
+        "sub": "Each one would be a product on its own. Together they are the reason schools stop stitching tools together."
+      },
+      "included": {
+        "eyebrow": "Everything included",
+        "title": "The full capability list",
+        "sub": "Every capability has its own page with the detail your team will ask for."
+      },
+      "replaces": {
+        "eyebrow": "Consolidation",
+        "title": "What RacoLearnHub replaces",
+        "sub": "The business case usually writes itself once the current subscriptions are listed side by side.",
+        "caption": "Tools RacoLearnHub replaces and the capability that covers each one",
+        "headers": ["Tool you’re paying for today", "Replaced by", "What improves"],
+        "rows": [
+          ["Tutoring / homework help app", "AI Copilot", "Available 24/7, grounded in your own courses"],
+          ["Video & content library", "Courses & Curriculum", "Aligned to your exam board, not generic"],
+          ["Quiz & assessment tool", "Courses + Analytics", "Results feed one progress picture"],
+          ["Separate LMS", "The whole platform", "One login for staff and students"],
+          ["Messaging app", "Community & Collaboration", "Moderated and safeguarded"],
+          ["Payments spreadsheet", "Payments & Admin", "Automated reminders and a real audit trail"]
+        ],
+        "note": "Which capabilities are live versus on the roadmap should be confirmed before launch, so the site never over-promises."
+      },
+      "feature": {
+        "allCapabilities": "See all capabilities",
+        "faqEyebrow": "FAQ",
+        "faqTitle": "your questions",
+        "exploreEyebrow": "Explore further",
+        "exploreTitle": "The rest of the platform"
+      }
+    },
+
+    "solutions": {
+      "hero": {
+        "eyebrow": "Solutions",
+        "title": "Built for everyone in your school.",
+        "sub": "The same platform does a very different job depending on who is holding it. Start with the person you are.",
+        "crumb": "Solutions",
+        "secondary": "See the platform"
+      },
+      "pillars": {
+        "eyebrow": "What every role gets",
+        "title": "Four things every page on this site keeps promising",
+        "sub": "Because they are the four things schools actually buy."
+      },
+      "detail": {
+        "seePlatform": "See the platform",
+        "statsNote": "Illustrative figures — replace with verified customer data before launch.",
+        "testimonialsEyebrow": "In their words",
+        "testimonialsTitle": "Schools already working this way",
+        "faqEyebrow": "FAQ",
+        "faqTitle": "Questions we get asked",
+        "otherRolesEyebrow": "Other roles",
+        "otherRolesTitle": "Everyone else in your school"
+      }
+    },
+
+    "curriculum": {
+      "hero": {
+        "eyebrow": "Curriculum",
+        "title": "Aligned to the exam boards you already teach.",
+        "sub": "Content and pathways mapped to Cambridge and Edexcel, so what students learn maps to what they’re assessed on. Built around your curriculum, not bolted on.",
+        "crumb": "Curriculum",
+        "secondary": "See the course library"
+      },
+      "boardBadge": "Exam board",
+      "other": {
+        "eyebrow": "Other curricula",
+        "title": "Teaching something else?",
+        "sub": "Cambridge and Edexcel are where our alignment work started, not where it stops. Bring your own schemes of work and the platform will structure them."
+      },
+      "detail": {
+        "coverage": {
+          "eyebrow": "Coverage",
+          "title": "Subjects & levels covered",
+          "sub": "Content mapped to {fullName} specifications, with new subjects added each term."
+        },
+        "levelsTitle": "Levels",
+        "subjectsTitle": "Subjects",
+        "alignment": {
+          "eyebrow": "Alignment",
+          "title": "Mapped to specifications & assessment objectives",
+          "sub": "Every lesson carries its specification reference, so what students learn maps to what they are examined on.",
+          "cards": [
+            {
+              "icon": "Target",
+              "title": "Specification mapping",
+              "body": "Each lesson tagged to its {board} specification point, visible to teachers and to leadership reporting."
+            },
+            {
+              "icon": "FileText",
+              "title": "Past-paper practice",
+              "body": "Past-paper style questions attached to each topic, so revision is part of the course rather than a separate scramble in May."
+            },
+            {
+              "icon": "Atom",
+              "title": "Simulations by subject",
+              "body": "Interactive simulations mapped to the practical and conceptual content of each science and maths topic."
+            }
+          ]
+        },
+        "testimonialsEyebrow": "What teachers say",
+        "testimonialsTitle": "{board} departments already using RacoLearnHub",
+        "faqEyebrow": "FAQ",
+        "faqTitle": "{board} questions",
+        "faq": {
+          "levelsQ": "Which {board} levels are covered?",
+          "levelsA": "with subject coverage expanding each term.",
+          "alignmentQ": "How is alignment maintained when specifications change?",
+          "alignmentA": "Specification updates are tracked centrally and pushed to course mappings, so your department is not re-tagging lessons by hand.",
+          "mixQ": "Can we mix exam boards?",
+          "mixA": "Yes. Many international schools run both Cambridge and Edexcel across different subjects or key stages, and the platform handles that in one instance."
+        },
+        "independenceNote": "RacoLearnHub is an independent platform. {fullName} is referenced to describe curriculum alignment; confirm endorsement and trademark usage with the board before launch.",
+        "cta": {
+          "title": "See RacoLearnHub with your {board} subjects.",
+          "sub": "A 30-minute walkthrough using your specification, your topics and your year groups."
+        }
+      }
+    },
+
+    "pricing": {
+      "hero": {
+        "eyebrow": "Pricing",
+        "title": "Pricing that scales with your school.",
+        "sub": "Simple per-student or per-school plans. One platform replaces many — so it often costs less than the tools it retires.",
+        "crumb": "Pricing",
+        "secondary": "Get a tailored quote"
+      },
+      "tiersNote": "Tiers shown are illustrative pending confirmed commercials. Final per-student and per-school pricing is shared on your demo call, with a written schedule for procurement.",
+      "trustHeadline": "Schools typically retire three to five subscriptions when they move to RacoLearnHub.",
+      "compare": {
+        "eyebrow": "Compare",
+        "title": "What’s included",
+        "sub": "The honest version: what each plan does and does not include.",
+        "caption": "Feature comparison across Essentials, Professional and Enterprise plans",
+        "headers": ["Capability", "Essentials", "Professional", "Enterprise / Trust"],
+        "rows": [
+          { "label": "Curriculum-aligned course library", "values": [true, true, true] },
+          { "label": "Interactive simulations", "values": [true, true, true] },
+          { "label": "AI Copilot", "values": [true, true, true] },
+          { "label": "White-label branding & custom domain", "values": [true, true, true] },
+          { "label": "Core progress analytics", "values": [true, true, true] },
+          { "label": "AI Playgrounds", "values": [false, true, true] },
+          { "label": "Class & subject communities", "values": [false, true, true] },
+          { "label": "Payments & fee administration", "values": [false, true, true] },
+          { "label": "Advanced leadership analytics", "values": [false, true, true] },
+          { "label": "Single sign-on (SSO)", "values": [false, true, true] },
+          { "label": "Multi-school central administration", "values": [false, false, true] },
+          { "label": "Cross-school analytics", "values": [false, false, true] },
+          { "label": "Custom integrations & data exports", "values": [false, false, true] },
+          { "label": "Dedicated customer success", "values": [false, false, true] },
+          { "label": "Contractual SLA", "values": [false, false, true] }
+        ],
+        "included": "Included",
+        "notIncluded": "Not included"
+      },
+      "roi": {
+        "eyebrow": "Return on investment",
+        "title": "Count what you retire, not just what you spend.",
+        "body": "Most schools arrive paying for a homework-help app, a content library, an assessment tool and a fee spreadsheet that costs somebody two days a month. The comparison that matters is the total of those, plus the staff hours, against one platform.",
+        "cardTitle": "What to bring to the conversation",
+        "cardItems": [
+          "Your current EdTech subscriptions and renewal dates",
+          "Roughly how many students and staff need access",
+          "Your exam board(s) and priority subjects",
+          "Any procurement or funding deadlines"
+        ]
+      },
+      "faqEyebrow": "FAQ",
+      "faqTitle": "Billing, contracts and pilots",
+      "cta": {
+        "title": "Not sure which plan? See it first — book a demo.",
+        "sub": "We’ll recommend the plan that fits, and tell you plainly if a smaller one would do.",
+        "secondary": "Get a tailored quote"
+      }
+    },
+
+    "demo": {
+      "eyebrow": "Book a live demo",
+      "title": "See RacoLearnHub with your school’s subjects.",
+      "sub": "A 30-minute personalised walkthrough with a specialist. We’ll tailor it to your curriculum, your subjects and your goals. No obligation.",
+      "expectTitle": "What to expect",
+      "expectItems": [
+        "Tailored to your subjects and exam board — not a generic tour",
+        "Your questions answered by someone who knows the product",
+        "A clear, no-pressure next step at the end",
+        "30 minutes, on a call you can share with colleagues"
+      ],
+      "expectNote": "It’s a conversation, not a pitch.",
+      "exploreTitle": "Prefer to explore first?",
+      "exploreSub": "Not everyone is ready to talk to someone — and that’s fine.",
+      "watchCta": "Watch the 2-min overview",
+      "simulationCta": "Try a live simulation",
+      "emailCta": "Email us instead",
+      "badges": ["GDPR compliant", "UK/EU hosted", "WCAG 2.2 AA", "No data training"],
+      "form": {
+        "name": "Full name",
+        "email": "Work email",
+        "school": "School or organisation",
+        "role": "Your role",
+        "country": "Country",
+        "curriculum": "Curriculum",
+        "curriculumHint": "So we can show the right course library.",
+        "size": "Approximate number of students",
+        "interest": "What would you like to see?",
+        "interestPlaceholder": "e.g. how Copilot handles Year 11 Chemistry, or what leadership dashboards look like…",
+        "optional": "Optional",
+        "choose": "Please choose…",
+        "roles": [
+          "Head / Deputy Head / SLT",
+          "Head of Department / Teacher",
+          "Business Manager / Bursar",
+          "IT / Data Protection Lead",
+          "Other"
+        ],
+        "curricula": ["Cambridge", "Edexcel", "Both", "Other / Mixed"],
+        "sizes": [
+          "Under 250 students",
+          "250–750 students",
+          "750–1,500 students",
+          "1,500+ students",
+          "Multi-school trust or group"
+        ],
+        "consent": {
+          "pre": "I’d like RACO AI Technologies to contact me about this demo. We’ll only use your details to arrange it — see our",
+          "privacy": "privacy notice",
+          "post": "."
+        },
+        "submit": "Book my demo",
+        "footnote": "We’ll be in touch within one working day. No newsletter unless you ask for one.",
+        "errors": {
+          "name": "Please tell us your name.",
+          "email": "Please enter a valid work email address.",
+          "school": "Please tell us which school or organisation you’re with.",
+          "role": "Please choose the closest role.",
+          "country": "Please tell us your country.",
+          "consent": "We need your consent before we can get in touch."
+        }
+      },
+      "confirmation": {
+        "title": { "pre": "Thanks", "post": " — you’re booked in." },
+        "body": "A specialist will confirm your slot within one working day, and you’ll get a calendar invite you can forward to colleagues.",
+        "brochure": "Schools brochure (PDF)",
+        "simulation": "Try a simulation",
+        "caseStudy": "Read a case study"
+      }
+    },
+
+    "security": {
+      "hero": {
+        "eyebrow": "Security & Compliance",
+        "title": "Built to be trusted with your students’ data.",
+        "sub": "GDPR-compliant, UK/EU-hosted, safeguarding-first, and accessible by design.",
+        "crumb": "Security & Compliance",
+        "primary": "Request our security pack"
+      },
+      "essentials": {
+        "eyebrow": "The essentials",
+        "title": "What your IT and data protection leads will ask",
+        "sub": "Everything below is designed to be forwarded to procurement without further translation."
+      },
+      "pack": {
+        "eyebrow": "For procurement",
+        "title": "Request the security pack",
+        "body": "Policies, sub-processor list, penetration-test summary, data-processing agreement and accessibility statement — in one download, so your review starts today rather than after three emails.",
+        "cta": "Request the security pack",
+        "accessibility": "Accessibility statement",
+        "cardTitle": "In the pack",
+        "cardItems": [
+          "Information security policy",
+          "Data-processing agreement (DPA) template",
+          "Sub-processor list and locations",
+          "Penetration-test executive summary",
+          "Business continuity & incident response",
+          "Accessibility conformance statement"
+        ],
+        "note": "Exact certifications and residency commitments to be confirmed before launch."
+      },
+      "faqEyebrow": "FAQ",
+      "faqTitle": "Security & data protection questions",
+      "faq": [
+        {
+          "q": "Where is our data hosted?",
+          "a": "In the UK/EU by default, with documented residency. International schools can discuss regional hosting during procurement."
+        },
+        {
+          "q": "Do you train AI models on our data?",
+          "a": "No. Course content and student conversations are never used for model training, and this is written into the data-processing agreement rather than only stated on a website."
+        },
+        {
+          "q": "Can we see your security documentation?",
+          "a": "Yes — request the security pack below. It includes policies, the sub-processor list, a penetration-test summary and our data-processing agreement."
+        },
+        {
+          "q": "How do you handle safeguarding incidents?",
+          "a": "Flagged content routes to your named safeguarding lead with full context. Escalation paths, retention and reporting are configured to your school’s policy."
+        },
+        {
+          "q": "What is your accessibility standard?",
+          "a": "We target WCAG 2.2 AA across the product and this marketing site, and publish an accessibility statement schools can reference in their own compliance reporting."
+        },
+        {
+          "q": "What happens to our data if we leave?",
+          "a": "You can export your content and records at any time. On termination, data is deleted according to the schedule in the agreement."
+        }
+      ],
+      "cta": {
+        "title": "Bring your IT lead to the demo.",
+        "sub": "We’re happy to spend the first ten minutes on architecture, hosting and data flows before anyone talks about lessons."
+      }
+    },
+
+    "about": {
+      "hero": {
+        "eyebrow": "About",
+        "title": "Built by an AI lab that believes in teachers.",
+        "sub": "RacoLearnHub is made by RACO AI Technologies — a UK AI lab building AI that works for people, not instead of them.",
+        "crumb": "About",
+        "secondary": "Visit racoai.io"
+      },
+      "mission": {
+        "eyebrow": "Mission & story",
+        "title": "Technology should give teachers time, not take it.",
+        "paragraphs": [
+          "RACO AI Technologies is an AI lab and engineering company. We build applied AI products — and RacoLearnHub is the one we care about most, because education is where the compounding happens.",
+          "We started it after watching the same pattern in school after school: enormous effort spent stitching tools together, and the students who most needed help still waiting for a moment of a teacher’s attention that never came.",
+          "Our position is unfashionable and simple. AI should not replace the teacher. It should handle the twentieth repetition of the same explanation, so the teacher can do the thing only a human can."
+        ],
+        "cardTitle": "Why education",
+        "cardBody": "Because a tutor for every child used to be a question of wealth. It does not have to be any more — and a school-controlled platform, rather than a consumer app, is the way that happens safely.",
+        "cardItems": [
+          "Schools own their content and their data",
+          "No advertising, ever",
+          "No training on student data",
+          "Accessible and multilingual by default"
+        ]
+      },
+      "team": {
+        "eyebrow": "The team",
+        "title": "Engineers, educators and the people between them",
+        "sub": "Placeholder team content — replace with real profiles before launch.",
+        "groups": ["Leadership", "AI engineering", "Learning design", "Schools success"],
+        "cardBody": "Profiles to be added during the brand pass."
+      },
+      "cards": {
+        "engineering": {
+          "title": "Backed by real AI engineering",
+          "body": "RacoLearnHub is built on the same engineering practice behind RACO AI’s other applied AI work — not a wrapper over someone else’s chatbot."
+        },
+        "careers": {
+          "title": "Careers",
+          "body": "We hire engineers, learning designers and people who have actually stood in front of a class. Open roles are listed as they arise.",
+          "cta": "Get in touch"
+        },
+        "press": {
+          "title": "Press & contact",
+          "body": "{legalName}, {address}. {engineering}. For press enquiries, use the contact page and mark your message for the press team.",
+          "cta": "Contact us"
+        }
+      }
+    },
+
+    "contact": {
+      "hero": {
+        "eyebrow": "Contact",
+        "title": "Talk to a human.",
+        "sub": "Three routes in, depending on what you need. If you are evaluating the platform for a school, the demo is the shortest path.",
+        "crumb": "Contact",
+        "secondary": "Help Centre"
+      },
+      "routes": [
+        {
+          "icon": "CalendarCheck",
+          "title": "Book a demo",
+          "body": "The fastest route if you are evaluating RacoLearnHub for a school or trust. Thirty minutes, tailored to your curriculum.",
+          "ctaLabel": "Book a Live Demo",
+          "ctaHref": "/demo",
+          "primary": true
+        },
+        {
+          "icon": "MessageCircle",
+          "title": "General & support enquiries",
+          "body": "Questions about the platform, your existing account, billing or safeguarding. Existing customers should start in the Help Centre for the fastest answer.",
+          "ctaLabel": "Visit the Help Centre",
+          "ctaHref": "/help",
+          "primary": false
+        },
+        {
+          "icon": "Handshake",
+          "title": "Partnerships & press",
+          "body": "Content partnerships, resellers and distributors, exam boards, and media enquiries about RACO AI Technologies.",
+          "ctaLabel": "Email the team",
+          "ctaHref": "mailto:hello@racoai.io",
+          "primary": false
+        }
+      ],
+      "details": {
+        "title": "Company details",
+        "note": "Registered address and company number to be added during the brand and legal pass before launch."
+      },
+      "response": {
+        "title": "Response times",
+        "items": [
+          "Demo requests: within one working day",
+          "General enquiries: within two working days",
+          "Existing customer support: per your plan’s SLA",
+          "Safeguarding escalations: prioritised immediately"
+        ]
+      }
+    },
+
+    "resources": {
+      "hero": {
+        "eyebrow": "Resources",
+        "title": "Everything you need to make the case.",
+        "sub": "Evidence from schools, practical insight for staff, and the documentation your IT and finance colleagues will ask for.",
+        "crumb": "Resources",
+        "primary": "Download the schools brochure"
+      },
+      "sections": [
+        {
+          "icon": "Quote",
+          "title": "Case Studies",
+          "body": "Schools, in their own words — challenge, solution, results.",
+          "href": "/resources/case-studies"
+        },
+        {
+          "icon": "PenLine",
+          "title": "Blog / Insights",
+          "body": "AI in education, teaching & learning, leadership and product updates.",
+          "href": "/resources/blog"
+        },
+        {
+          "icon": "Video",
+          "title": "Webinars & Events",
+          "body": "Live and on-demand sessions for leaders, teachers and IT.",
+          "href": "/resources/events"
+        },
+        {
+          "icon": "LifeBuoy",
+          "title": "Help Centre",
+          "body": "Searchable documentation for schools already using the platform.",
+          "href": "/help"
+        }
+      ],
+      "browse": "Browse",
+      "brochure": {
+        "eyebrow": "Brochure",
+        "title": "The schools brochure",
+        "body": "Twelve pages you can forward to a colleague or take into a governors’ meeting: what the platform does, what it replaces, what it costs to run, and how rollout works.",
+        "download": "Download the PDF",
+        "demo": "Book a demo instead",
+        "preview": "Brochure preview — asset to be added in the brand pass."
+      }
+    },
+
+    "caseStudies": {
+      "hero": {
+        "eyebrow": "Case studies",
+        "title": "Schools, in their own words.",
+        "sub": "Challenge, solution, results. Filter by curriculum, country or school type.",
+        "crumb": "Case studies",
+        "secondary": "Book your own demo"
+      },
+      "filterLabel": "Filter case studies",
+      "allFilter": "All",
+      "bothLabel": "Both",
+      "items": [
+        {
+          "title": "From five tools to one, in a single term",
+          "school": "Northgate International",
+          "country": "United Kingdom",
+          "curriculum": "Cambridge",
+          "type": "Independent",
+          "stat": "6.5h saved per teacher weekly"
+        },
+        {
+          "title": "Copilot in a multilingual science department",
+          "school": "Al Noor Academy",
+          "country": "United Arab Emirates",
+          "curriculum": "Edexcel",
+          "type": "International",
+          "stat": "+18% assessment completion"
+        },
+        {
+          "title": "One platform across nine schools",
+          "school": "Riverbank Trust",
+          "country": "United Kingdom",
+          "curriculum": "Both",
+          "type": "Trust",
+          "stat": "9 schools, 1 contract"
+        }
+      ],
+      "empty": {
+        "title": "No case studies match that filter yet",
+        "body": "Try another filter, or ask us for a reference school like yours.",
+        "cta": "Ask for a reference"
+      },
+      "cta": {
+        "title": "Want a school like yours to talk to?",
+        "sub": "We’ll introduce you to a reference school on a similar curriculum, at a similar size."
+      }
+    },
+
+    "blog": {
+      "hero": {
+        "eyebrow": "Blog / Insights",
+        "title": "Insights for modern schools.",
+        "sub": "Practical writing for the people making decisions about AI in education — and the people living with those decisions.",
+        "crumb": "Blog"
+      },
+      "categories": ["AI in education", "Teaching & learning", "Leadership", "Product updates"],
+      "posts": [
+        { "title": "What an AI tutor should and shouldn’t do in a classroom", "category": "AI in education", "read": "6 min read" },
+        { "title": "Differentiation without the Sunday evening", "category": "Teaching & learning", "read": "5 min read" },
+        { "title": "The questions your DPO will ask about an AI platform", "category": "Leadership", "read": "8 min read" },
+        { "title": "Why we ground every Copilot answer in your own courses", "category": "Product updates", "read": "4 min read" },
+        { "title": "Consolidating EdTech: a business case template for SLT", "category": "Leadership", "read": "7 min read" },
+        { "title": "Simulations that actually change what students understand", "category": "Teaching & learning", "read": "5 min read" }
+      ],
+      "cta": {
+        "title": "Reading is fine. Seeing it is better.",
+        "sub": "Thirty minutes with a specialist, using your subjects."
+      }
+    },
+
+    "events": {
+      "hero": {
+        "eyebrow": "Webinars & events",
+        "title": "Come and ask us hard questions.",
+        "sub": "Live sessions and on-demand recordings for leaders, teachers and IT — including the GDPR one your DPO will want.",
+        "crumb": "Events"
+      },
+      "items": [
+        {
+          "title": "AI tutors in the classroom",
+          "date": "Live · monthly",
+          "status": "Upcoming",
+          "body": "What changes for teachers when every student has a tutor — and what doesn’t.",
+          "upcoming": true
+        },
+        {
+          "title": "GDPR for school platforms",
+          "date": "On demand",
+          "status": "On demand",
+          "body": "A walkthrough for data protection leads evaluating an AI learning platform.",
+          "upcoming": false
+        },
+        {
+          "title": "Building a business case for consolidation",
+          "date": "On demand",
+          "status": "On demand",
+          "body": "For business managers and bursars costing a platform move.",
+          "upcoming": false
+        }
+      ],
+      "register": "Register",
+      "watchOnDemand": "Watch on demand"
+    },
+
+    "help": {
+      "hero": {
+        "eyebrow": "Help Centre",
+        "title": "Answers, not ticket queues.",
+        "sub": "Searchable documentation for staff and students already using RacoLearnHub.",
+        "crumb": "Help Centre"
+      },
+      "searchLabel": "Search the help centre",
+      "searchPlaceholder": "Search help articles…",
+      "searchSubmit": "Search",
+      "browseEyebrow": "Browse",
+      "browseTitle": "Popular topics",
+      "topics": [
+        { "icon": "Rocket", "title": "Getting started", "count": 18 },
+        { "icon": "Users", "title": "Managing users & roles", "count": 24 },
+        { "icon": "BookOpen", "title": "Courses & content", "count": 31 },
+        { "icon": "Sparkles", "title": "AI Copilot", "count": 15 },
+        { "icon": "CreditCard", "title": "Payments & billing", "count": 12 },
+        { "icon": "ShieldCheck", "title": "Safeguarding & privacy", "count": 9 }
+      ],
+      "articlesLabel": "{count} articles",
+      "cantFind": {
+        "title": "Can’t find it?",
+        "body": "Support is staffed by people who know the product and the school year.",
+        "cta": "Contact support",
+        "email": "support@racoedu.com"
+      }
+    },
+
+    "sitemap": {
+      "hero": {
+        "eyebrow": "Sitemap",
+        "title": "Every page on this site.",
+        "sub": "Nine top-level destinations, kept deliberately shallow — no school buyer should be more than two clicks from a demo.",
+        "crumb": "Sitemap"
+      },
+      "legalColumn": "Legal & utility",
+      "thisPage": "Sitemap"
+    },
+
+    "legal": {
+      "eyebrow": "Legal & trust",
+      "note": {
+        "strong": "Skeleton page.",
+        "body": "The structure below is scaffolding for legal copy that must be drafted and approved by RACO AI Technologies’ legal and data protection leads before launch. No legal text has been written here on their behalf."
+      },
+      "contentsLabel": "On this page",
+      "contentsTitle": "Contents",
+      "sectionStub": "Copy to be supplied. This section will cover {section}.",
+      "relatedLabel": "Other legal pages",
+      "relatedTitle": "Related",
+      "pages": {
+        "privacy": {
+          "title": "Privacy notice",
+          "sub": "How RACO AI Technologies collects, uses and protects personal data across RacoLearnHub.",
+          "sections": ["Who we are", "What data we collect", "How we use it", "Lawful bases", "Sharing & sub-processors", "International transfers", "Retention", "Your rights", "Children’s data", "Contacting our DPO"]
+        },
+        "terms": {
+          "title": "Terms of service",
+          "sub": "The terms under which schools and their users access RacoLearnHub.",
+          "sections": ["Agreement & parties", "Licence & permitted use", "School responsibilities", "Acceptable use", "Content ownership", "Fees & billing", "Service levels", "Liability", "Term & termination", "Governing law"]
+        },
+        "cookies": {
+          "title": "Cookie policy",
+          "sub": "What we store on your device, why, and how to change your mind.",
+          "sections": ["What cookies we use", "Strictly necessary cookies", "Analytics cookies", "Managing your preferences", "Third-party cookies", "Changes to this policy"]
+        },
+        "accessibility": {
+          "title": "Accessibility statement",
+          "sub": "Our commitment to WCAG 2.2 AA across the platform and this website — and where we know we fall short.",
+          "sections": ["Our commitment", "Conformance status", "Known limitations", "Assistive technology support", "Feedback & reporting a barrier", "Assessment approach", "Review schedule"]
+        },
+        "safeguarding": {
+          "title": "Safeguarding",
+          "sub": "How RacoLearnHub supports schools in keeping students safe online.",
+          "sections": ["Our safeguarding principles", "Content moderation", "AI guardrails by age group", "Alerting & escalation", "Staff visibility & controls", "Reporting a concern", "Working with your DSL"]
+        }
+      }
+    },
+
+    "notFound": {
+      "title": "That page isn’t here.",
+      "body": "The link may be old, or the page may have moved. Here are the routes most people are looking for.",
+      "platform": "See the platform",
+      "home": "Back to home",
+      "sitemap": {
+        "pre": "Or browse the",
+        "link": "full sitemap"
+      }
+    }
+  },
+
+  "meta": {
+    "home": {
+      "title": "RacoLearnHub — The AI-native learning platform for schools",
+      "description": "Curriculum-aligned courses, interactive simulations and a 24/7 AI tutor in one platform — branded as your school, in 20+ languages. Book a live demo."
+    },
+    "platform": {
+      "title": "Platform — One platform. Every part of learning. | RacoLearnHub",
+      "description": "From an AI tutor to interactive simulations, curriculum content to community and payments — see how the pieces of RacoLearnHub fit together."
+    },
+    "platformFeature": {
+      "title": "{name} — RacoLearnHub",
+      "description": "RacoLearnHub platform capability page."
+    },
+    "solutions": {
+      "title": "Solutions — Built for everyone in your school | RacoLearnHub",
+      "description": "Persona-led narratives mapping RacoLearnHub features to outcomes for school leaders, teachers, students, parents and multi-academy trusts."
+    },
+    "solution": {
+      "title": "{name} — RacoLearnHub",
+      "description": "How RacoLearnHub serves your role."
+    },
+    "curriculum": {
+      "title": "Curriculum — Aligned to Cambridge & Edexcel | RacoLearnHub",
+      "description": "Courses, simulations and assessments mapped to Cambridge International and Pearson Edexcel specifications."
+    },
+    "curriculumBoard": {
+      "title": "{fullName} learning platform — RacoLearnHub",
+      "description": "Courses, simulations and assessments mapped to exam-board specifications."
+    },
+    "pricing": {
+      "title": "Pricing — Plans that scale with your school | RacoLearnHub",
+      "description": "Simple per-student or per-school plans. One platform replaces many — so it often costs less than the tools it retires."
+    },
+    "demo": {
+      "title": "Book a Live Demo — RacoLearnHub",
+      "description": "A 30-minute personalised walkthrough with a specialist, tailored to your curriculum, your subjects and your goals. No obligation."
+    },
+    "security": {
+      "title": "Security & Compliance — Built to be trusted with your students’ data | RacoLearnHub",
+      "description": "GDPR-compliant, UK/EU-hosted, safeguarding-first and accessible by design. Data protection, residency, SSO, accessibility and AI responsibility."
+    },
+    "about": {
+      "title": "About — Built by an AI lab that believes in teachers | RacoLearnHub",
+      "description": "RacoLearnHub is made by RACO AI Technologies — a UK AI lab building AI that works for people, not instead of them."
+    },
+    "contact": {
+      "title": "Contact — Talk to a human | RacoLearnHub",
+      "description": "Book a demo, ask a general or support question, or talk to us about partnerships and press."
+    },
+    "help": {
+      "title": "Help Centre | RacoLearnHub",
+      "description": "Searchable documentation for schools using RacoLearnHub."
+    },
+    "sitemap": {
+      "title": "Sitemap — RacoLearnHub",
+      "description": "Every page on the RacoLearnHub website."
+    },
+    "resources": {
+      "title": "Resources — Insights, case studies and webinars for schools | RacoLearnHub",
+      "description": "Case studies, insights for school leaders, webinars and the help centre — everything schools use to evaluate RacoLearnHub."
+    },
+    "caseStudies": {
+      "title": "Case Studies — Schools, in their own words | RacoLearnHub",
+      "description": "How schools and trusts use RacoLearnHub: the challenge, the solution and the results."
+    },
+    "blog": {
+      "title": "Insights for modern schools | RacoLearnHub",
+      "description": "AI in education, teaching & learning, leadership and product updates from RACO AI Technologies."
+    },
+    "events": {
+      "title": "Webinars & Events | RacoLearnHub",
+      "description": "Live and on-demand webinars for school leaders, teachers and data protection leads."
+    },
+    "privacy": {
+      "title": "Privacy notice — RacoLearnHub",
+      "description": "How RACO AI Technologies collects, uses and protects personal data across RacoLearnHub."
+    },
+    "terms": {
+      "title": "Terms of service — RacoLearnHub",
+      "description": "The terms under which schools and their users access RacoLearnHub."
+    },
+    "cookies": {
+      "title": "Cookie policy — RacoLearnHub",
+      "description": "What we store on your device, why, and how to change your mind."
+    },
+    "accessibility": {
+      "title": "Accessibility statement — RacoLearnHub",
+      "description": "Our commitment to WCAG 2.2 AA across the platform and this website."
+    },
+    "safeguarding": {
+      "title": "Safeguarding — RacoLearnHub",
+      "description": "How RacoLearnHub supports schools in keeping students safe online."
+    },
+    "notFound": {
+      "title": "Page not found — RacoLearnHub",
+      "description": "The page you were looking for does not exist."
+    }
+  }
+}
